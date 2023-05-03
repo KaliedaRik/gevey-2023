@@ -1,0 +1,534 @@
+/*
+æ æ: aʊ ɜ e e: eɪ i i: ɪə ɪ ɒ ɒ: ɒɔ ɑ ɔ ɔ: ɔɪ ʌ ʊ ʊ: əʊ m n ɲ p b t̪ d̪ t d k g q f v s z ʃ ʒ x χ h r̥ r ʍ w j l ɫ p͡s b͡z ʦ ʣ ʧ ʤ k͡ʃ g͡ʒ t͡f d͡v k͡s g͡z
+*/
+
+
+/* Andika */
+@font-face {
+  font-family: "Andika";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Andika-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Andika";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Andika-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Andika";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Andika-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Andika";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Andika-BoldItalic.ttf") format("truetype");
+}
+
+/* Arimo */
+@font-face {
+  font-family: "Arimo";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Arimo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arimo";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Arimo-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arimo";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Arimo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arimo";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Arimo-BoldItalic.ttf") format("truetype");
+}
+
+/* Charis SIL 
+@font-face {
+  font-family: "Charis SIL";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/CharisSIL-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charis SIL";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/CharisSIL-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charis SIL";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/CharisSIL-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Charis SIL";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/CharisSIL-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Fira Sans 
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/FiraSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/FiraSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/FiraSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/FiraSans-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Gentium Plus 
+@font-face {
+  font-family: "Gentium Plus";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/GentiumPlus-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gentium Plus";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/GentiumPlus-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gentium Plus";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/GentiumPlus-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gentium Plus";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/GentiumPlus-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Gentium Book Plus 
+@font-face {
+  font-family: "Gentium Book Plus";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/GentiumBookPlus-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gentium Book Plus";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/GentiumBookPlus-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gentium Book Plus";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/GentiumBookPlus-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gentium Book Plus";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/GentiumBookPlus-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Istok Web 
+@font-face {
+  font-family: "Istok Web";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/IstokWeb-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Istok Web";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/IstokWeb-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Istok Web";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/IstokWeb-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Istok Web";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/IstokWeb-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Noto Sans 
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/NotoSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/NotoSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/NotoSans-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Noto Sans Mono 
+@font-face {
+  font-family: "Noto Sans Mono";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/NotoSansMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Noto Sans Mono";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/NotoSansMono-Bold.ttf") format("truetype");
+}
+*/
+
+/* Poppins 
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/Poppins-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Poppins-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Poppins-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* Roboto Slab */
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 200;
+  src: url("/fonts/RobotoSlab-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  src: url("/fonts/RobotoSlab-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  src: url("/fonts/RobotoSlab-Bold.ttf") format("truetype");
+}
+
+/* Source Code Pro */
+@font-face {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/SourceCodePro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/SourceCodePro-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/SourceCodePro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/SourceCodePro-BoldItalic.ttf") format("truetype");
+}
+
+/* Source Sans 3 
+@font-face {
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/SourceSans3-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/SourceSans3-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/SourceSans3-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/SourceSans3-BoldItalic.ttf") format("truetype");
+}
+*/
+
+/* GeveyXYZ */
+@font-face {
+  font-family: 'Gevey Standard';
+  src: url('/fonts/geveyStandard.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gevey Rustic';
+  src: url('/fonts/geveyRustic.eot');
+  src: local('geveyRustic'), 
+    url('/fonts/geveyRustic.woff2') format('woff2'), 
+    url('/fonts/geveyRustic.woff') format('woff'), 
+    url('/fonts/geveyRustic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --site-sans: 'Arimo';
+  --site-serif: 'Roboto Slab';
+  --site-mono: 'Source Code Pro';
+  --site-ipa: 'Andika';
+  --site-native: 'Gevey Rustic';
+  --main-bg-color: hsl(136deg 19% 98%);
+  --main-text-color: hsl(136deg 23% 14%);
+  --main-hover-color: hsl(352deg 46% 45%);
+  --main-link-color: hsl(42deg 90% 26%);
+  --highlight-color-yellow: hsl(61deg 100% 50%);
+  --highlight-color-red: hsl(0deg 100% 35%);
+  --highlight-color-green: hsl(122deg 100% 25%);
+  --highlight-color-blue: hsl(238deg 100% 35%);
+  --highlight-color-gray: hsl(0deg 0% 55%);
+  --highlight-color-aside: hsl(60deg 100% 96%);
+  --tablet-min: 481px;
+  --laptop-min: 769px;
+  --desktop-min: 1025px;
+  --xl-desktop-min: 1201px;
+  --main-max-width: 40rem;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: var(--site-sans), sans-serif;
+  font-size: 1.1rem;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0 0.5rem;
+  font-family: var(--site-serif);
+  line-height: 1.15;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+    font-size: 2.25rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.75rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.25rem;
+}
+
+a {
+  color: var(--main-link-color);
+  transition: color 0.4s ease-out;
+}
+a:hover {
+  color: var(--main-hover-color);
+}
+
+b {
+  font-weight: normal;
+  color: var(--highlight-color-red);
+}
+i {
+  font-style: normal;
+  color: var(--highlight-color-green);
+}
+em {
+  font-family: var(--site-mono);
+}
+ul {
+  list-style-type: '» ';
+  list-style-position: outside;
+  padding: 0 0 0 1rem;
+}
+li {
+  margin-bottom: 0.75rem;
+}
+figure {
+  width: 100%;
+  margin: 0;
+}
+figure img {
+  width: 100%;
+}
+aside {
+  background-color: var(--highlight-color-aside);
+  border: 1px solid var(--highlight-color-green);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+div.page-nav-mark {
+    height: 2rem;
+}
+
+/* Can't use CSS variables with @media queries (Dec 2022) */
+@media (min-width: 481px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 769px) {
+  html {
+    font-size: 16px;
+  }
+  div.page-nav-mark {
+      height: 5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1201px) {
+  html {
+    font-size: 18px;
+  }
+}
