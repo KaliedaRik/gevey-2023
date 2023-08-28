@@ -15,6 +15,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"scrawl-canvas": "^8.10.2"
+		"scrawl-canvas": "^8.10.4"
 	}
 }
