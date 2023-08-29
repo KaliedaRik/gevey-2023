@@ -127,23 +127,23 @@
     <p>The following dative prepositions are commonly used by Gevey speakers:</p>
 
     <ul>
-      <li><i>d<u>u</u>kc | dui<u>wi</u>kc</i> &ndash <b>from, away from</b></li>
-      <li><i>tas<u>u</u>kc | ta<u>wi</u>kc</i> &ndash <b>to, towards</b></li>
-      <li><i>tcelk<u>u</u>kc | tcelka<u>wi</u>kc</i> &ndash <b>circling, around</b></li>
-      <li><i>dezd<u>u</u>kc | dezde<u>wi</u>kc</i> &ndash <b>between, through</b></li>
-      <li><i>bas<u>u</u>kc | ba<u>wi</u>kc</i> &ndash <b>along, by, next to</b></li>
-      <li><i>cas<u>u</u>kc | ca<u>wi</u>kc</i> &ndash <b>along, by, past</b></li>
-      <li><i>sus<u>u</u>kc | su<u>wi</u>kc</i> &ndash <b>under, underneath</b></li>
-      <li><i>vos<u>u</u>kc | vo<u>wi</u>kc</i> &ndash <b>over</b></li>
-      <li><i>tcuis<u>u</u>kc | tcuisa<u>wi</u>kc</i> &ndash <b>in front of</b></li>
-      <li><i>xus<u>u</u>kc | xu<u>wi</u>kc</i> &ndash <b>on, onto</b></li>
-      <li><i>ânt<u>u</u>kc | ânte<u>wi</u>kc</i> &ndash <b>off, off from</b></li>
-      <li><i>deb<u>u</u>kc | deba<u>wi</u>kc</i> &ndash <b>behind</b></li>
-      <li><i>dost<u>u</u>kc | dosta<u>wi</u>kc</i> &ndash <b>from, out of</b></li>
-      <li><i>üist<u>u</u>kc | üista<u>wi</u>kc</i> &ndash <b>in, into</b></li>
-      <li><i>tob<u>u</u>kc | tobo<u>wi</u>kc</i> &ndash <b>up, upwards, up to</b></li>
-      <li><i>mod<u>u</u>kc | modo<u>wi</u>kc</i> &ndash <b>down, downwards, down to</b></li>
-      <li><i>swas<u>u</u>kc | swa<u>wi</u>kc</i> &ndash <b>across, for (length)</b></li>
+      <li><i>d<u>u</u>kc | dui<u>wi</u>kc</i> &ndash; <b>from, away from</b></li>
+      <li><i>tas<u>u</u>kc | ta<u>wi</u>kc</i> &ndash; <b>to, towards</b></li>
+      <li><i>tcelk<u>u</u>kc | tcelka<u>wi</u>kc</i> &ndash; <b>circling, around</b></li>
+      <li><i>dezd<u>u</u>kc | dezde<u>wi</u>kc</i> &ndash; <b>between, through</b></li>
+      <li><i>bas<u>u</u>kc | ba<u>wi</u>kc</i> &ndash; <b>along, by, next to</b></li>
+      <li><i>cas<u>u</u>kc | ca<u>wi</u>kc</i> &ndash; <b>along, by, past</b></li>
+      <li><i>sus<u>u</u>kc | su<u>wi</u>kc</i> &ndash; <b>under, underneath</b></li>
+      <li><i>vos<u>u</u>kc | vo<u>wi</u>kc</i> &ndash; <b>over</b></li>
+      <li><i>tcuis<u>u</u>kc | tcuisa<u>wi</u>kc</i> &ndash; <b>in front of</b></li>
+      <li><i>xus<u>u</u>kc | xu<u>wi</u>kc</i> &ndash; <b>on, onto</b></li>
+      <li><i>ânt<u>u</u>kc | ânte<u>wi</u>kc</i> &ndash; <b>off, off from</b></li>
+      <li><i>deb<u>u</u>kc | deba<u>wi</u>kc</i> &ndash; <b>behind</b></li>
+      <li><i>dost<u>u</u>kc | dosta<u>wi</u>kc</i> &ndash; <b>from, out of</b></li>
+      <li><i>üist<u>u</u>kc | üista<u>wi</u>kc</i> &ndash; <b>in, into</b></li>
+      <li><i>tob<u>u</u>kc | tobo<u>wi</u>kc</i> &ndash; <b>up, upwards, up to</b></li>
+      <li><i>mod<u>u</u>kc | modo<u>wi</u>kc</i> &ndash; <b>down, downwards, down to</b></li>
+      <li><i>swas<u>u</u>kc | swa<u>wi</u>kc</i> &ndash; <b>across, for (length)</b></li>
     </ul>
 
     <p>Many <em>satellite-framed</em> languages encode the <em>manner of motion</em> ('walk', 'run', 'jump', 'drive', 'sail', etc) lexically, leading to a rich variety of manner-related verbs. Gevey does not follow this pattern. Instead it relies on a set of smaller, more generalised verbs which speakers will enhance (in various ways) to convey more subtle meanings, when required.</p>
@@ -329,7 +329,7 @@
       eLine="Peter  like horse  towards market  ran [=galloped]"
     />
 
-    <p>When talking about slow movement, Gevey speakers will further differentiate the movement depoending on whether it is performed with difficulty (<i>êixnuo</i>), or unwillingly (<i>muowjtcuo</i>):</p>
+    <p>When talking about slow movement, Gevey speakers will further differentiate the movement depending on whether it is performed with difficulty (<i>êixnuo</i>), or unwillingly (<i>muowjtcuo</i>):</p>
 
     <ul>
       <li><First phrase="êixnuo" /> <b>crawl, dodder, hobble, limp, lurch, <strong>shuffle</strong>, stagger, stumble, toddle, totter, waddle</b> &ndash; move with difficulty.</li>
@@ -535,24 +535,24 @@
     <p>The following locative prepositions are commonly used by Gevey speakers:</p>
 
     <ul>
-      <li><i>d<u>u</u>bz | dui<u>wi</u>bz</i> &ndash <b>not at</b></li>
-      <li><i>tas<u>u</u>bz | ta<u>wi</u>bz </i> &ndash <b>at</b></li>
-      <li><i>tcelk<u>u</u>bz | tcelka<u>wi</u>bz</i> &ndash <b>surrounding, around</b></li>
-      <li><i>dezd<u>u</u>bz | dezde<u>wi</u>bz</i> &ndash <b>between, inbetween</b></li>
-      <li><i>bas<u>u</u>bz | ba<u>wi</u>bz</i> &ndash <b>next to, by, beside</b></li>
-      <li><i>cas<u>u</u>bz | ca<u>wi</u>bz</i> &ndash <b>near to, close to, nearby</b></li>
-      <li><i>mav<u>u</u>bz | mava<u>wi</u>bz</i> &ndash <b>away from, not near</b></li>
-      <li><i>sus<u>u</u>bz | su<u>wi</u>bz</i> &ndash <b>below, beneath, after</b></li>
-      <li><i>vos<u>u</u>bz | vo<u>wi</u>bz</i> &ndash <b>above, over, overhead</b></li>
-      <li><i>tcuis<u>u</u>bz | tcuisa<u>wi</u>bz</i> &ndash <b>in front of, before</b></li>
-      <li><i>xus<u>u</u>bz | xu<u>wi</u>bz</i> &ndash <b>on, on top of, upon</b></li>
-      <li><i>deb<u>u</u>bz | deba<u>wi</u>bz</i> &ndash <b>behind</b></li>
-      <li><i>dost<u>u</u>bz | dosta<u>wi</u>bz</i> &ndash <b>outside, without</b></li>
-      <li><i>üist<u>u</u>bz | üista<u>wi</u>bz</i> &ndash <b>inside, within</b></li>
-      <li><i>kot<u>u</u>bz | ko<u>wi</u>bz</i> &ndash <b>facing towards</b></li>
-      <li><i>den<u>u</u>bz | dene<u>wi</u>bz</i> &ndash <b>facing away from</b></li>
-      <li><i>tob<u>u</u>bz | tobo<u>wi</u>bz</i> &ndash <b>facing upwards</b></li>
-      <li><i>mod<u>u</u>bz | modo<u>wi</u>bz</i> &ndash <b>facing downwards</b></li>
+      <li><i>d<u>u</u>bz | dui<u>wi</u>bz</i> &ndash; <b>not at</b></li>
+      <li><i>tas<u>u</u>bz | ta<u>wi</u>bz </i> &ndash; <b>at</b></li>
+      <li><i>tcelk<u>u</u>bz | tcelka<u>wi</u>bz</i> &ndash; <b>surrounding, around</b></li>
+      <li><i>dezd<u>u</u>bz | dezde<u>wi</u>bz</i> &ndash; <b>between, inbetween</b></li>
+      <li><i>bas<u>u</u>bz | ba<u>wi</u>bz</i> &ndash; <b>next to, by, beside</b></li>
+      <li><i>cas<u>u</u>bz | ca<u>wi</u>bz</i> &ndash; <b>near to, close to, nearby</b></li>
+      <li><i>mav<u>u</u>bz | mava<u>wi</u>bz</i> &ndash; <b>away from, not near</b></li>
+      <li><i>sus<u>u</u>bz | su<u>wi</u>bz</i> &ndash; <b>below, beneath, after</b></li>
+      <li><i>vos<u>u</u>bz | vo<u>wi</u>bz</i> &ndash; <b>above, over, overhead</b></li>
+      <li><i>tcuis<u>u</u>bz | tcuisa<u>wi</u>bz</i> &ndash; <b>in front of, before</b></li>
+      <li><i>xus<u>u</u>bz | xu<u>wi</u>bz</i> &ndash; <b>on, on top of, upon</b></li>
+      <li><i>deb<u>u</u>bz | deba<u>wi</u>bz</i> &ndash; <b>behind</b></li>
+      <li><i>dost<u>u</u>bz | dosta<u>wi</u>bz</i> &ndash; <b>outside, without</b></li>
+      <li><i>üist<u>u</u>bz | üista<u>wi</u>bz</i> &ndash; <b>inside, within</b></li>
+      <li><i>kot<u>u</u>bz | ko<u>wi</u>bz</i> &ndash; <b>facing towards</b></li>
+      <li><i>den<u>u</u>bz | dene<u>wi</u>bz</i> &ndash; <b>facing away from</b></li>
+      <li><i>tob<u>u</u>bz | tobo<u>wi</u>bz</i> &ndash; <b>facing upwards</b></li>
+      <li><i>mod<u>u</u>bz | modo<u>wi</u>bz</i> &ndash; <b>facing downwards</b></li>
     </ul>
 
     <h4>Place-related verbs</h4>
@@ -568,20 +568,20 @@
     <p>The following temporal prepositions are commonly used by Gevey speakers:</p>
 
     <ul>
-      <li><i>d<u>u</u>lj | dui<u>wi</u>lj</i> &ndash <b>not at, not during</b></li>
-      <li><i>tas<u>u</u>lj | ta<u>wi</u>lj</i> &ndash <b>at, during</b></li>
-      <li><i>tcelk<u>u</u>lj | tcelka<u>wi</u>lj</i> &ndash <b>sometime around</b></li>
-      <li><i>dezd<u>u</u>lj | dezde<u>wi</u>lj</i> &ndash <b>between</b></li>
-      <li><i>bas<u>u</u>lj | ba<u>wi</u>lj</i> &ndash <b>at the start of</b></li>
-      <li><i>cas<u>u</u>lj | ca<u>wi</u>lj</i> &ndash <b>in the middle of</b></li>
-      <li><i>mav<u>u</u>lj | mava<u>wi</u>lj</i> &ndash <b>near the end of</b></li>
-      <li><i>tcuis<u>u</u>lj | tcuisa<u>wi</u>lj</i> &ndash <b>some time before</b></li>
-      <li><i>xus<u>u</u>lj | xu<u>wi</u>lj</i> &ndash <b>just before</b></li>
-      <li><i>ânt<u>u</u>lj | ânte<u>wi</u>lj</i> &ndash <b>just after</b></li>
-      <li><i>deb<u>u</u>lj | deba<u>wi</u>lj</i> &ndash <b>some time after</b></li>
-      <li><i>tob<u>u</u>lj | tobo<u>wi</u>lj</i> &ndash <b>until, before, by</b></li>
-      <li><i>mod<u>u</u>lj | modo<u>wi</u>lj</i> &ndash <b>until after</b></li>
-      <li><i>swas<u>u</u>lj | swa<u>wi</u>lj</i> &ndash <b>for</b></li>
+      <li><i>d<u>u</u>lj | dui<u>wi</u>lj</i> &ndash; <b>not at, not during</b></li>
+      <li><i>tas<u>u</u>lj | ta<u>wi</u>lj</i> &ndash; <b>at, during</b></li>
+      <li><i>tcelk<u>u</u>lj | tcelka<u>wi</u>lj</i> &ndash; <b>sometime around</b></li>
+      <li><i>dezd<u>u</u>lj | dezde<u>wi</u>lj</i> &ndash; <b>between</b></li>
+      <li><i>bas<u>u</u>lj | ba<u>wi</u>lj</i> &ndash; <b>at the start of</b></li>
+      <li><i>cas<u>u</u>lj | ca<u>wi</u>lj</i> &ndash; <b>in the middle of</b></li>
+      <li><i>mav<u>u</u>lj | mava<u>wi</u>lj</i> &ndash; <b>near the end of</b></li>
+      <li><i>tcuis<u>u</u>lj | tcuisa<u>wi</u>lj</i> &ndash; <b>some time before</b></li>
+      <li><i>xus<u>u</u>lj | xu<u>wi</u>lj</i> &ndash; <b>just before</b></li>
+      <li><i>ânt<u>u</u>lj | ânte<u>wi</u>lj</i> &ndash; <b>just after</b></li>
+      <li><i>deb<u>u</u>lj | deba<u>wi</u>lj</i> &ndash; <b>some time after</b></li>
+      <li><i>tob<u>u</u>lj | tobo<u>wi</u>lj</i> &ndash; <b>until, before, by</b></li>
+      <li><i>mod<u>u</u>lj | modo<u>wi</u>lj</i> &ndash; <b>until after</b></li>
+      <li><i>swas<u>u</u>lj | swa<u>wi</u>lj</i> &ndash; <b>for</b></li>
     </ul>
 
     <h4>Time-related verbs</h4>
@@ -597,24 +597,24 @@
     <p>The following oblique prepositions are commonly used by Gevey speakers:</p>
 
     <ul>
-      <li><i>d<u>u</u>f | dui<u>wi</u>f</i> &ndash <b>without, not posessing</b></li>
-      <li><i>tas<u>u</u>f | ta<u>wi</u>f</i> &ndash <b>with, posessing</b></li>
-      <li><i>tcelk<u>u</u>f | tcelka<u>wi</u>f</i> &ndash <b>not concerning, not about</b></li>
-      <li><i>dezd<u>u</u>f | dezde<u>wi</u>f</i> &ndash <b>concerning, about</b></li>
-      <li><i>bas<u>u</u>f | ba<u>wi</u>f</i> &ndash <b>with, accompanied by</b></li>
-      <li><i>mav<u>u</u>f | mava<u>wi</u>f</i> &ndash <b>without, not accompanied by</b></li>
-      <li><i>tcuis<u>u</u>f | tcuisa<u>wi</u>f</i> &ndash <b>not as</b></li>
-      <li><i>xus<u>u</u>f | xu<u>wi</u>f</i> &ndash <b>for (aquisitive)</b></li>
-      <li><i>ânt<u>u</u>f | ânte<u>wi</u>f</i> &ndash <b>instead of</b></li>
-      <li><i>deb<u>u</u>f | deba<u>wi</u>f</i> &ndash <b>as</b></li>
-      <li><i>kot<u>u</u>f | ko<u>wi</u>f</i> &ndash <b>for (cause)</b></li>
-      <li><i>den<u>u</u>f | dene<u>wi</u>f</i> &ndash <b>from (cause)</b></li>
-      <li><i>tob<u>u</u>f | tobo<u>wi</u>f</i> &ndash <b>with, using</b></li>
-      <li><i>mod<u>u</u>f | modo<u>wi</u>f</i> &ndash <b>without, not using</b></li>
-      <li><i>swas<u>u</u>f | swa<u>wi</u>f</i> &ndash <b>for (quantifier)</b></li>
-      <li><i>vied<u>u</u>f | vie<u>wi</u>f</i> &ndash <b>for the use of, in support of</b></li>
-      <li><i>gles<u>u</u>f | gle<u>wi</u>f</i> &ndash <b>for the benefit of</b></li>
-      <li><i>set<u>u</u>f | se<u>wi</u>f</i> &ndash <b>from, by, as a product of</b></li>
+      <li><i>d<u>u</u>f | dui<u>wi</u>f</i> &ndash; <b>without, not posessing</b></li>
+      <li><i>tas<u>u</u>f | ta<u>wi</u>f</i> &ndash; <b>with, posessing</b></li>
+      <li><i>tcelk<u>u</u>f | tcelka<u>wi</u>f</i> &ndash; <b>not concerning, not about</b></li>
+      <li><i>dezd<u>u</u>f | dezde<u>wi</u>f</i> &ndash; <b>concerning, about</b></li>
+      <li><i>bas<u>u</u>f | ba<u>wi</u>f</i> &ndash; <b>with, accompanied by</b></li>
+      <li><i>mav<u>u</u>f | mava<u>wi</u>f</i> &ndash; <b>without, not accompanied by</b></li>
+      <li><i>tcuis<u>u</u>f | tcuisa<u>wi</u>f</i> &ndash; <b>not as</b></li>
+      <li><i>xus<u>u</u>f | xu<u>wi</u>f</i> &ndash; <b>for (aquisitive)</b></li>
+      <li><i>ânt<u>u</u>f | ânte<u>wi</u>f</i> &ndash; <b>instead of</b></li>
+      <li><i>deb<u>u</u>f | deba<u>wi</u>f</i> &ndash; <b>as</b></li>
+      <li><i>kot<u>u</u>f | ko<u>wi</u>f</i> &ndash; <b>for (cause)</b></li>
+      <li><i>den<u>u</u>f | dene<u>wi</u>f</i> &ndash; <b>from (cause)</b></li>
+      <li><i>tob<u>u</u>f | tobo<u>wi</u>f</i> &ndash; <b>with, using</b></li>
+      <li><i>mod<u>u</u>f | modo<u>wi</u>f</i> &ndash; <b>without, not using</b></li>
+      <li><i>swas<u>u</u>f | swa<u>wi</u>f</i> &ndash; <b>for (quantifier)</b></li>
+      <li><i>vied<u>u</u>f | vie<u>wi</u>f</i> &ndash; <b>for the use of, in support of</b></li>
+      <li><i>gles<u>u</u>f | gle<u>wi</u>f</i> &ndash; <b>for the benefit of</b></li>
+      <li><i>set<u>u</u>f | se<u>wi</u>f</i> &ndash; <b>from, by, as a product of</b></li>
     </ul>
   </section>
 

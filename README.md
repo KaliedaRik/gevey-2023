@@ -22,3 +22,4 @@ $> cd ~/code/gevey-2023/static/databases && sqlite3 gevey-words.db
 sqlite> .read gevey-words.sql
 ```
 
+Alternatively, download [DB Browser for SQLite](https://sqlitebrowser.org/)
