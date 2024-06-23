@@ -76,6 +76,22 @@
       eng: 'Gevey prepositions',
       gev: 'ûmavuisu íel',
     },
+    'movement-verbs': {
+      eng: 'Verbs of movement',
+      gev: '',
+    },
+    'place-verbs': {
+      eng: 'Verbs of place',
+      gev: '',
+    },
+    'time-verbs': {
+      eng: 'Verbs of time',
+      gev: '',
+    },
+    'oblique-verbs': {
+      eng: 'Oblique verbs',
+      gev: '',
+    },
     'pronouns': {
       eng: 'Gevey pronouns',
       gev: 'zekjmavuo tsu kect',

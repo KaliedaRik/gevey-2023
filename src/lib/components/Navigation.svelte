@@ -56,6 +56,10 @@
     ],
     usage: [
       ['/metaphors', 'Metaphors'],
+      ['/movement-verbs', 'Movement verbs'],
+      ['/place-verbs', 'Place verbs'],
+      ['/time-verbs', 'Time verbs'],
+      ['/oblique-verbs', 'Oblique verbs'],
       ['/numbers', 'Numbers'],
       ['/date-time', 'Dates, times'],
       ['/colors', 'Colors'],
