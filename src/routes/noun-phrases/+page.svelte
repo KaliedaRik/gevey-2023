@@ -236,9 +236,9 @@
 
     <Trans
       english="I want a different apple as this one is blemished"
-      gevey="Yu fod geldx gluga év yu paaq swuigeusoe diljtoe"
-      gLine="Yu fod       geldx gluga    év yu paaq    swuigeusoe diljtoe"
-      eLine="   different apple want.[I] as    blemish has        this.one.here"
+      gevey="Yu fod geldx gluga év yu paaq swuigoe diljtoe"
+      gLine="Yu fod       geldx gluga    év yu paaq    swuigoe diljtoe"
+      eLine="   different apple want.[I] as    blemish has     this.one.here"
     />
 
     <h4>Comparisons to time</h4>

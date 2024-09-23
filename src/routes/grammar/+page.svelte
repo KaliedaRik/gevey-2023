@@ -82,6 +82,8 @@
 
     <p>The commonest pattern is the <First phrase="wjadostcuo tsu mavalaim" /> <b>declarative clause</b> where something is described, or something happens. These clauses always involve a verb:</p>
 
+    <p>(Note that Gevey speakers routinely drop the declarative present tense infix <i>es</i> from verbs)</p>
+
     <Trans 
       english="Come to the market with me"
       gevey="Tasukc nuugaxg sano hal puzg basaf"
@@ -98,11 +100,13 @@
 
     <p><First phrase="wjadostcuo coebil" /> <b>Dependent clauses</b> add more information to the previous clause. Often they make little sense on their own.</p>
 
+    <p>(Note also that Gevey speakers routinely drop the dependent present tense infix <i>eus</i> from verbs)</p>
+
     <Trans 
       english="I need to buy a new one"
-      gevey="Bljois tatjeusa cuivasteus keuyu puivui"
-      gLine="bljois tatjeusa  cuivasteus  keuyu puivui"
-      eLine="so     buy[I]    need        it    new"
+      gevey="Bljois tatja cuivasteus keuyu puivui"
+      gLine="bljois tatja  cuivasteus  keuyu puivui"
+      eLine="so     buy[I] need        it    new"
     />
 
     <p><First phrase="wjadostcuo tsu tatoq" /> <b>Interrogative clauses</b> turn a statement into a question.</p>
@@ -178,9 +182,9 @@
 
     <Trans 
       english="We watched the woman who was standing by the tree"
-      gevey="Ye gyant ó basubz rjab noisuomuise xo galtata sta"
-      gLine="ye gyant ó   basubz rjab noisuomuise xo galtata sta"
-      eLine="   woman who beside tree stands         watched we"
+      gevey="Ye gyant ó basubz rjab noisuome xo galtata sta"
+      gLine="ye gyant ó   basubz rjab noisuome xo galtata sta"
+      eLine="   woman who beside tree stands      watched we"
     />
 
     <p>Gevey speakers will often rearrange the embedded clause to become a part of the <em>noun phrase</em>.</p>

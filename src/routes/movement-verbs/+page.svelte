@@ -428,15 +428,15 @@
 
     <Trans 
       english="The bird flew out of the window"
-      gevey="Tjeule ântukc ljexint caenete"
-      gLine="tjeule ântukc   ljexint caenete"
+      gevey="Tjeule ântukc ljexint caenate"
+      gLine="tjeule ântukc   ljexint caenate"
       eLine="bird   off-from window  flew"
     />
 
     <Trans 
       english="The stone that I threw flew across the river"
-      gevey="yu yoak ó palcuisa xo swasugx djaont caenet"
-      gLine="yu yoak  ó    palcuisa  xo swasugx djaont caenet"
+      gevey="yu yoak ó palcuisa xo swasugx djaont caenat"
+      gLine="yu yoak  ó    palcuisa  xo swasugx djaont caenat"
       eLine="   stone that threw.[I]    across  river  flew"
     />
 
@@ -462,15 +462,15 @@
 
     <Trans 
       english="We climbed a hundred steps to reach the top of the building"
-      gevey="Tobukc ódx zmut snemrjeta sta bljoiz xusups fidx nu tselaev dek puzeusa"
-      gLine="tobukc  ódx         zmut snemrjeta sta bljoiz  xusups fidx nu tselaev dek      puzeusa"
+      gevey="Tobukc ódx zmut snemrjata sta bljoiz xusups fidx nu tselaev dek puza"
+      gLine="tobukc  ódx         zmut snemrjata sta bljoiz  xusups fidx nu tselaev dek      puza"
       eLine="upwards one-hundred step climb     we  so-that on     roof of college complete moved.[we]"
     />
 
     <Trans 
       english="Mary tripped over her dog and tumbled down the hill"
-      gevey="Marje ye ken tusair baifyate bljois modukc tjakail snemrjeuse"
-      gLine="Marje ye ken tusair baifyate  bljois  modukc    tjakail snemrjeuse"
+      gevey="Marje ye ken tusair baifyate bljois modukc tjakail snemrje"
+      gLine="Marje ye ken tusair baifyate  bljois  modukc    tjakail snemrje"
       eLine="Mary     her dog    trip-over so-that downwards hill    tumbled.[she]"
     />
 
@@ -511,15 +511,15 @@
 
     <Trans 
       english="She screwed the bottle's lid down tightly"
-      gevey="Yu teljaef kunj yapaitj êdxete glaerjet ke"
-      gLine="yu teljaef kunj yapaitj êdxete  glaerjet ke"
+      gevey="Yu teljaef kunj yapaitj êdxate glaerjat ke"
+      gLine="yu teljaef kunj yapaitj êdxate  glaerjat ke"
       eLine="   lid     of   bottle  screwed tightly  she"
     />
 
     <Trans 
       english="The bottle's lid was tightly screwed down"
-      gevey="Yu teljaev kunj yapaitj êdxed glaerjet"
-      gLine="yu teljaev kunj yapaitj êdxed       glaerjet"
+      gevey="Yu teljaev kunj yapaitj êdxad glaerjat"
+      gLine="yu teljaev kunj yapaitj êdxad       glaerjat"
       eLine="   lid     of   bottle  was.screwed tightly"
     />
   </section>

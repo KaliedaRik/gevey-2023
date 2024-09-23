@@ -22,10 +22,10 @@
     <p>Verb function infixes</p>
 
     <ul>
-      <li><b>-a</b> &ndash; declarative clause</li>
+      <li><b>-a</b> &ndash; declarative clause (note: the present tense 'as' infix is generally dropped)</li>
       <li><b>-i</b> &ndash; interrogative clause</li>
-      <li><b>-eu</b> &ndash; dependent clause</li>
-      <li><b>-ui</b> &ndash; relative clause</li>
+      <li><b>-eu</b> &ndash; dependent clause (note: the present tense 'eus' infix is generally dropped)</li>
+      <li><b>-ui</b> &ndash; relative clause (archaic! Nowadays speakers generally match the relative verb's infix to the main clause verb's infix)</li>
       <li><b>-uo</b> &ndash; short clause</li>
     </ul>
 
