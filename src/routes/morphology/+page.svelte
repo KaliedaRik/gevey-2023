@@ -333,7 +333,7 @@
       <li><First phrase="fyalai" /> &ndash; not like (I'm confused – do you mean &hellip;)</li>
     </ul>
 
-    <p><b>Clause temporal conjunctions</b> &ndash; <First phrase="wjadosmavuo tsuo syesk" /> &ndash; explicitly mark how the next clause relates to the previous clause in the relative time frame under discussion, or that the next clause is shifting to a new time frame:</p>
+    <p><b>Clause temporal conjunctions</b> &ndash; <First phrase="wjadosmavuo tsuo syesk" /> &ndash; explicitly mark how the next clause relates to the previous clause in the relative time frame under discussion, or that the next clause is shifting to a new time frame. Generally the main verb in the clause following the conjunction will be in the present tense (because: relative tenses):</p>
 
     <ul>
       <li><First phrase="ëdezd" /> <b>as, while</b> &ndash; next clause happens at the same time as what was just said</li>
@@ -342,7 +342,7 @@
       <li><First phrase="rjedost" /> <b>when</b> &ndash; next clause starts in the middle of what was just said</li>
       <li><First phrase="loyant" /> <b>as, while</b> &ndash; next clause is happening when what was just said happens</li>
       <li><First phrase="ûdx" /> <b>now</b> &ndash; next clause moves to our current (absolute) time</li>
-      <li><First phrase="wjuizet" /> <b>then</b> &ndash; next clause moves to a different (relative) time</li>
+      <li><First phrase="wjuizet" /> <b>then</b> &ndash; next clause moves to a different (relative) time - the next clause will explicitly set the new relative tense</li>
     </ul>
 
     <p><b>Clause interrogative conjunctions</b> &ndash; <First phrase="wjadosmavuo tsuo tatoq" /> &ndash; (which are all phrases rather than single words) introduce clauses that ask questions or seek information:</p>
@@ -357,7 +357,7 @@
       <li><First phrase="árj ûipok" /> <b>why?</b></li>
     </ul>
 
-    <p><b>Clause dependent conjunctions</b> &ndash; <First phrase="wjadosmavuo tsuo wjalt" /> &ndash; qualify the clause they follow. Because they are adding information to a given context, dependent clauses often make little sense when presented outside of that context:</p>
+    <p><b>Clause dependent conjunctions</b> &ndash; <First phrase="wjadosmavuo tsuo wjalt" /> &ndash; qualify the clause they follow. The main verb in the following clause will generally (but not always) take the present tense (again: relative tenses). Because they are adding information to a given context, dependent clauses often make little sense when presented outside of that context:</p>
 
     <ul>
       <li><First phrase="badj" /> <b>that, where, wherever</b> &ndash; adds locational details to the previous clause</li>

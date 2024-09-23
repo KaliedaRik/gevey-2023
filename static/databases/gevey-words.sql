@@ -1,7 +1,23 @@
+-- TO START THE DEV ENVIRONMENT IN LOCAL
+
+-- # in the first terminal window:
 -- cd ~/code/gevey-2023 && npm run dev
 
+-- # in the second terminal window:
 -- cd ~/code/gevey-2023/static/databases && sqlite3 gevey-words.db
 -- .read gevey-words.sql
+
+-- # in the browser, navigate to:
+-- http://localhost:5173/
+
+-- # The browser will hot reload for all web-related file saves
+
+-- # Saving database updates does not trigger a web page auto-reload. To refresh the page, re-run:
+-- .read gevey-words.sql
+
+-- USEFUL SQLITE COMMANDS
+-- .help
+-- .quit
 
 DROP TABLE IF EXISTS words;
 
@@ -579,7 +595,7 @@ VALUES
 	'east area',
 	NULL,
 	NULL,
-	' root prepositions '
+	' root movement-verbs '
 ),(
 	'tcoflu',
 	'tcoflu',
@@ -687,7 +703,7 @@ VALUES
 	'south area',
 	NULL,
 	NULL,
-	' root prepositions '
+	' root movement-verbs '
 ),(
 	'leilu',
 	'leilu',
@@ -696,7 +712,7 @@ VALUES
 	'north area',
 	NULL,
 	NULL,
-	' root prepositions '
+	' root movement-verbs '
 ),(
 	'tuintelu',
 	'tuintelu',
@@ -705,7 +721,7 @@ VALUES
 	'west area',
 	NULL,
 	NULL,
-	' root prepositions '
+	' root movement-verbs '
 ),(
 	'leituintelu',
 	'leituintelu',
@@ -760,6 +776,15 @@ VALUES
 	NULL,
 	NULL,
 	' root '
+),(
+	'tjaklu',
+	'tjaklu',
+	'tjakail',
+	'noun',
+	'hill',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'qadeisuo',
 	'qadeisuo',
@@ -819,6 +844,15 @@ VALUES
 	NULL,
 	NULL,
 	' root sounds '
+),(
+	'teljvu',
+	'teljvu',
+	'teljaev',
+	'noun',
+	'lid, cap, stopper',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'psuzu',
 	'psuzu',
@@ -1771,6 +1805,15 @@ VALUES
 	NULL,
 	' prosody '
 ),(
+	'fidxu',
+	'fidxu',
+	'fidx',
+	'noun',
+	'roof',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
 	'qjeuftu tsu âwjg',
 	'qjeuftu tsu âwjg',
 	NULL,
@@ -1924,6 +1967,60 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'wjage',
+	'wjage',
+	'wjag',
+	'noun',
+	'sun, primary star',
+	NULL,
+	NULL,
+	'  '
+),(
+	'puzastu',
+	'puzastu',
+	'puzast',
+	'noun',
+	'movement',
+	NULL,
+	'(physical)',
+	'  '
+),(
+	'wjabzastu',
+	'wjabzastu',
+	'wjabzast',
+	'noun',
+	'movement, clockwise',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'wjabzastanu',
+	'wjabzastanu',
+	'wjabzastant',
+	'noun',
+	'movement, anticlockwise',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'tjeule',
+	'tjeule',
+	'tjeul',
+	'noun',
+	'bird',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'ljexnju',
+	'ljexnju',
+	'ljexind',
+	'noun',
+	'window',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
 	'tisu',
 	'tisu',
 	'tisk',
@@ -1955,10 +2052,10 @@ VALUES
 	'êdxuo',
 	'êdx',
 	'verb: intransitive-active',
-	'coil, revolve, rotate, spin, twirl, twist, whirl, wind',
+	'circle, coil, loop, revolve, rotate, spin, twirl, twist, whirl, wind',
 	NULL,
 	'move around an axis',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'inu',
 	'ïnu',
@@ -2527,6 +2624,15 @@ VALUES
 	NULL,
 	NULL,
 	'  '
+),(
+	'palcuo',
+	'palcuo',
+	'palaic',
+	'verb: transitive',
+	'throw',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'wjadostcuo coebil',
 	'wjadostcuo coebil',
@@ -3511,6 +3617,15 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'zmukju',
+	'zmukju',
+	'zmut',
+	'noun',
+	'stair, step, staircase',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
 	'mavalmu',
 	'mavalmu',
 	'mavalaim',
@@ -3815,7 +3930,7 @@ VALUES
 	'cascade, collapse, drop, fall, jump, leap, plummet, plunge, pitch, spring, vault',
 	NULL,
 	'vertical movement, with no contact to a surface or projection',
-	' nouns prepositions '
+	' nouns prepositions movement-verbs '
 ),(
 	'snemrjuo',
 	'snemrjuo',
@@ -3824,7 +3939,7 @@ VALUES
 	'ascend, clamber, climb, come up/down, descend, dismount, go up/down, mount, scale, scramble, shinny, swing, tumble',
 	NULL,
 	'vertical movement, in contact with a surface or projection',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'kjuifuo',
 	'kjuifuo',
@@ -3870,6 +3985,15 @@ VALUES
 	NULL,
 	NULL,
 	' pronouns '
+),(
+	'deuftu',
+	'deuftu',
+	'deuft',
+	'noun',
+	'wall, partition, barrier, barricade',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'buiktu',
 	'buiktu',
@@ -4103,7 +4227,7 @@ VALUES
 	'right, left, main hand',
 	NULL,
 	'Commonly shortened to <em>hacoewe</em>',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'coewje',
 	'coewje',
@@ -4121,7 +4245,7 @@ VALUES
 	'left, right, other hand',
 	NULL,
 	'Commonly shortened to <em>tfecoewe</em>',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'tfebyuo',
 	'tfebyuo',
@@ -4184,7 +4308,7 @@ VALUES
 	'pivot, turn',
 	NULL,
 	'change direction',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'hruixuo',
 	'hruixuo',
@@ -6551,7 +6675,7 @@ VALUES
 	'backpack, hike, journey, travel, trek',
 	NULL,
 	'move a large distance, or for an extended time',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'oekluo',
 	'öekluo',
@@ -6560,7 +6684,7 @@ VALUES
 	'amble, coast, drift, meander, mosey, pad, perambulate, promenade, ramble, ride, roam, saunter, stray, stroll, wander',
 	NULL,
 	'move without obvious purpose',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'asuo',
 	'âsuo',
@@ -6826,7 +6950,7 @@ VALUES
 	'bolt, bowl, canter, charge, dart, dash, flit, gallop, hasten, hurry, hurtle, nip, race, run, rush, scamper, scoot, scram, scramble, scud, scurry, scutter, scuttle, skedaddle, speed, sprint, streak, tear, whiz, zoom',
 	NULL,
 	'move with speed',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'fosuo',
 	'fosuo',
@@ -6943,7 +7067,7 @@ VALUES
 	'arrive, come, depart, enter, exit, go, leave, move',
 	NULL,
 	'move in some way',
-	' grammar noun-list prepositions '
+	' grammar noun-list prepositions movement-verbs '
 ),(
 	'traduo',
 	'traduo',
@@ -6952,16 +7076,16 @@ VALUES
 	'commute, jog, lollop, lope, ride, rove, step, stride, trot, trundle, walk',
 	NULL,
 	'move with a purpose',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
-	'muowjtcu',
-	'muowjtcu',
+	'muowjtcuo',
+	'muowjtcuo',
 	'muowjtc',
 	'verb: intransitive-active',
 	'clump, inch, lumber, plod, shamble, slog, slouch, traipse, tramp, trudge',
 	NULL,
 	'move unwillingly',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'eixnuo',
 	'êixnuo',
@@ -6970,7 +7094,16 @@ VALUES
 	'crawl, dodder, hobble, limp, lurch, shuffle, stagger, stumble, toddle, totter, waddle',
 	NULL,
 	'move with difficulty',
-	' prepositions '
+	' prepositions movement-verbs '
+),(
+	'baifyuo',
+	'baifyuo',
+	'baifuiy',
+	'verb: transitive',
+	'trip over, stumble over/on, fall over',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'gliiye',
 	'gliiye',
@@ -6988,7 +7121,7 @@ VALUES
 	'creep, prowl, sidle, skulk, slink, slither, snake, sneak, steal, tack, tiptoe, zigzag',
 	NULL,
 	'move without drawing attention',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'cweguo',
 	'cweguo',
@@ -6997,7 +7130,16 @@ VALUES
 	'bounce, bound, cavort, frolic, gambol, mince, prance, roll, romp, sashay, skitter, spring, stomp, stump, strut, swagger, sweep',
 	NULL,
 	'move with intent to draw attention',
-	' prepositions '
+	' prepositions movement-verbs '
+),(
+	'pombuo',
+	'pombuo',
+	'pomb',
+	'verb: transitive (motion)',
+	'bounce, bump, rebound, recoil, ricochet',
+	NULL,
+	'any movement following an impact with something',
+	' movement-verbs '
 ),(
 	'caenuo',
 	'caenuo',
@@ -7006,7 +7148,7 @@ VALUES
 	'fly, glide',
 	NULL,
 	'move through air',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'byaoctu',
 	'byaoctu',
@@ -7015,7 +7157,7 @@ VALUES
 	'dive, ferry, float, sail, swim, wade',
 	NULL,
 	'move over or through water',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'vaeluo',
 	'vaeluo',
@@ -7024,7 +7166,7 @@ VALUES
 	'dance, hop, jig, skip',
 	NULL,
 	'move with rhythm, move to music',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'vaedxeuluo',
 	'vaedxeuluo',
@@ -7033,7 +7175,7 @@ VALUES
 	'skip',
 	NULL,
 	'a contraction of <em>xusubz dxeudx vaeluo</em>',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'vaezekluo',
 	'vaezekluo',
@@ -7042,7 +7184,7 @@ VALUES
 	'hop',
 	NULL,
 	'a contraction of <em>xusubz êzeg vaeluo</em>',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'kuitluo',
 	'kuitluo',
@@ -7051,7 +7193,7 @@ VALUES
 	'file, march, parade, troop',
 	NULL,
 	'move with precision, move in formation',
-	' prepositions '
+	' prepositions movement-verbs '
 );
 
 -- FROM WORDS PAGE
@@ -7165,6 +7307,15 @@ VALUES
 	NULL,
 	NULL,
 	'  '
+),(
+	'leibu',
+	'leibu',
+	'leib',
+	'noun',
+	'ball, sphere, orb, globe',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'utiismorjuo',
 	'ûtiismorjuo',

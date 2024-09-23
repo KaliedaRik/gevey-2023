@@ -174,20 +174,22 @@
       eLine="   woman watched we  - beside tree stood      she"
     />
 
+    <p>Be aware of tenses when embedding a clause. Gevey speakers use <em>relative tense</em> formations (see below), which means the embedded clause will generally move to the present tense:</p>
+
     <Trans 
       english="We watched the woman who was standing by the tree"
-      gevey="Ye gyant ó basubz rjab noisuomatui xo galtata sta"
-      gLine="ye gyant ó   basubz rjab noisuomatui xo galtata sta"
-      eLine="   woman who beside tree stood          watched we"
+      gevey="Ye gyant ó basubz rjab noisuomuise xo galtata sta"
+      gLine="ye gyant ó   basubz rjab noisuomuise xo galtata sta"
+      eLine="   woman who beside tree stands         watched we"
     />
 
     <p>Gevey speakers will often rearrange the embedded clause to become a part of the <em>noun phrase</em>.</p>
 
     <Trans 
       english="We watched the woman by the tree"
-      gevey="Ye gyant bafibz rjabu galtata sta"
-      gLine="ye gyant bafibz     rjabu galtata sta"
-      eLine="   woman was.beside tree  watched we"
+      gevey="Ye gyant bawibz rjabu galtata sta"
+      gLine="ye gyant bawibz    rjabu galtata sta"
+      eLine="   woman is.beside tree  watched we"
     />
 
     <h4>Short clauses</h4>

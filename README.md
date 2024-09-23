@@ -8,9 +8,10 @@ $> npm install
 ```
 
 #### To run the site locally
+Assumes the repo has been cloned to ~/code folder
 
 ``` 
-$> cd ~/path-to-code-folder/gevey-2023 && npm run dev
+$> cd ~/code/gevey-2023 && npm run dev
 ```
 
 ... and navigate to http://localhost:5173/

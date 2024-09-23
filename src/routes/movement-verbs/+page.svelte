@@ -14,11 +14,10 @@
     ['#speed', 'Speed'],
     ['#attention', 'Attention'],
     ['#extended', 'Extended'],
-    ['#medium', 'Medium'],
     ['#coordinated', 'Coordinated'],
+    ['#medium', 'Medium'],
     ['#axis', 'Axis'],
-    ['#vertical', 'Vertical'],
-    ['#exchange', 'Exchange'],
+    ['#impact', 'Impact'],
     ['#glossary', 'Glossary'],
   ];
 </script>
@@ -102,32 +101,32 @@
 
     <Trans 
       english="Mary was on her way to the temple when she saw me"
-      gevey="Marje tasuokc qadeisk let puzate rjedozd glifate tiiy"
-      gLine="Marje tasuokc qadeisk let puzate rjedozd glifate   tiiy"
-      eLine="Mary  towards temple  was.moving when    saw.[she] me"
+      gevey="Marje tasuokc qadeisk let puzate rjedozd glife tiiy"
+      gLine="Marje tasuokc qadeisk let puzate rjedozd glife      tiiy"
+      eLine="Mary  towards temple  was.moving when    sees.[she] me"
     />
 
     <Trans 
       english="Mary, who was on her way to the temple, saw me"
-      gevey="Marje tafikc qadeisuo glifate tiiy"
-      gLine="Marje tafikc           qadeisuo glifate tiiy"
-      eLine="Mary  was.move.towards temple   saw     me"
+      gevey="Marje tawikc qadeisuo glifate tiiy"
+      gLine="Marje tawikc          qadeisuo glifate tiiy"
+      eLine="Mary  is.move.towards temple   saw     me"
     />
 
     <p>When a dative preposition is used as part of an <em>associative role</em> noun, movement is always implied:</p>
 
     <Trans 
       english="The child was leaving school when s/he accidentally broke his/her wrist"
-      gevey="Basate dostukc tselaef let puzate rjedost yu kekj coevak coebljate kes"
-      gLine="basate dostukc tselaef let puzate rjedost yu kekj     coevak coebljate kes"
-      eLine="child  out.of  school  was.moving when       his/her  wrist  broke     s/he"
+      gevey="Basate dostukc tselaef let puzate rjedost yu kekj coevak coeblje kes"
+      gLine="basate dostukc tselaef let puzate rjedost yu kekj     coevak coeblje kes"
+      eLine="child  out.of  school  was.moving when       his/her  wrist  breaks  she"
     />
 
     <Trans 
       english="The child, as s/he left school, accidentally broke his/her wrist"
-      gevey="Basate dostafikc tselfu yu kekj coevak coebljate kes"
-      gLine="basate dostafikc          tselfu yu kekj    coevak coebljate kes"
-      eLine="child  was.moving.out.of  school    his/her wrist  broke     s/he"
+      gevey="Basate dostawikc tselfu yu kekj coevak coebljate kes"
+      gLine="basate dostawikc         tselfu yu kekj    coevak coebljate kes"
+      eLine="child  is.moving.out.of  school    his/her wrist  broke     s/he"
     />
   </section>
 
@@ -303,8 +302,8 @@
 
     <Trans 
       english="Peter tiptoed out of the meeting room"
-      gevey="Petrje xusubz ósoeq dostukc rjulvaelomag noigliiyate"
-      gLine="Petrje xusubz    ósoeq dostukc rjulvaelomag noigliiyate"
+      gevey="Petrje xuwikc ósoeq dostukc rjulvaelomag noigliiyate"
+      gLine="Petrje xuwikc    ósoeq dostukc rjulvaelomag noigliiyate"
       eLine="Peter  on.top.of toe   out.of  meeting.room crept [=tiptoed]"
     />
 
@@ -342,42 +341,6 @@
       gevey="Tasuogx Gevuil xusuf tfegu äcwotj leugxata sta"
       gLine="tasuogx Gevuil   xusuf tfegu äcwotj leugxata  sta"
       eLine="towards Gevuiluo for   short visit  travelled we"
-    />
-  </section>
-
-  <div class="page-nav-mark" id="medium" />
-  <section>
-    <h2>Movement through air, and water</h2>
-
-    <p>Gevey speakers use the verb <i>byaoctuo</i> to indicate that the movement is across, or through, water. The verb <i>caenuo</i> is used for movement through air:</p>
-
-    <ul>
-      <li><First phrase="caenuo" /> <b><strong>fly</strong>, glide</b> &ndash; move through air.</li>
-
-      <li><First phrase="byaoctuo" /> <b>dive, ferry, float, sail, <strong>swim</strong>, wade</b> &ndash; move over or through water.</li>
-    </ul>
-
-    <p>The type of movement is often left to context. People swim; boats sail:</p>
-
-    <Trans 
-      english="The boat sailed across the lake"
-      gevey="Ósemu swasukc ïnd byaoctatu"
-      gLine="ósemu swasukc ïnd  byaoctatu"
-      eLine="boat  across  lake sailed"
-    />
-
-    <Trans 
-      english="I swam across the lake"
-      gevey="Swasukc ïnd byaoctata"
-      gLine="swasukc ïnd  byaoctata"
-      eLine="across  lake swam.[I]"
-    />
-
-    <Trans 
-      english="I dived into the lake"
-      gevey="Üistukc ïnd byaoctata"
-      gLine="üistukc ïnd  byaoctata"
-      eLine="into    lake dived.[I]"
     />
   </section>
 
@@ -424,6 +387,95 @@
     />
   </section>
 
+  <div class="page-nav-mark" id="medium" />
+  <section>
+    <h2>Movement through air, and water</h2>
+
+    <p>Gevey speakers use the verb <i>byaoctuo</i> to indicate that the movement is across, or through, water. The type of movement is often left to context - people swim; boats sail; etc:</p>
+
+    <ul>
+      <li><First phrase="byaoctuo" /> <b>dive, ferry, float, sail, <strong>swim</strong>, wade</b> &ndash; move over or through water.</li>
+    </ul>
+
+    <Trans 
+      english="The boat sailed across the lake"
+      gevey="Ósemu swasukc ïnd byaoctatu"
+      gLine="ósemu swasukc ïnd  byaoctatu"
+      eLine="boat  across  lake sailed"
+    />
+
+    <Trans 
+      english="I swam across the lake"
+      gevey="Swasukc ïnd byaoctata"
+      gLine="swasukc ïnd  byaoctata"
+      eLine="across  lake swam.[I]"
+    />
+
+    <Trans 
+      english="I dived into the lake"
+      gevey="Üistukc ïnd byaoctata"
+      gLine="üistukc ïnd  byaoctata"
+      eLine="into    lake dived.[I]"
+    />
+
+    <p>Gevey speakers use two verbs to show movement through air:</p>
+
+    <ul>
+      <li><First phrase="caenuo" /> <b><strong>fly</strong>, glide</b> &ndash; extended movement through air.</li>
+
+      <li><First phrase="zniikjkuo" /> <b>cascade, collapse, drop, <strong>fall</strong>, <strong>jump</strong>, leap, plummet, plunge, pitch, spring, vault</b> &ndash; shorter movements through air.</li>
+    </ul>
+
+    <Trans 
+      english="The bird flew out of the window"
+      gevey="Tjeule ântukc ljexint caenete"
+      gLine="tjeule ântukc   ljexint caenete"
+      eLine="bird   off-from window  flew"
+    />
+
+    <Trans 
+      english="The stone that I threw flew across the river"
+      gevey="yu yoak ó palcuisa xo swasugx djaont caenet"
+      gLine="yu yoak  ó    palcuisa  xo swasugx djaont caenet"
+      eLine="   stone that threw.[I]    across  river  flew"
+    />
+
+    <Trans 
+      english="Peter jumps off the table"
+      gevey="Petrje ântugx bljom zniikjke"
+      gLine="Petrje ântugx bljom zniikjke"
+      eLine="Peter  off    table jumps"
+    />
+
+    <Trans 
+      english="Peter falls off the table"
+      gevey="Petrjes ântugx bljom zniikjke"
+      gLine="Petrjes ântugx bljom zniikjke"
+      eLine="Peter   off    table falls"
+    />
+
+    <p>Gevey speakers use a different verb - <i>snemrjuo</i> - to describe movements that often include brief passage through air, but has a more general scope covering non-horizontal movements (in particular, steps and stairs):</p>
+
+    <ul>
+      <li><First phrase="snemrjuo" /> <b>ascend, clamber, <strong>climb</strong>, come up/down, descend, dismount, go up/down, mount, scale, scramble, shinny, swing, tumble</b> &ndash; move in non-horizontal directions.</li>
+    </ul>
+
+    <Trans 
+      english="We climbed a hundred steps to reach the top of the building"
+      gevey="Tobukc ódx zmut snemrjeta sta bljoiz xusups fidx nu tselaev dek puzeusa"
+      gLine="tobukc  ódx         zmut snemrjeta sta bljoiz  xusups fidx nu tselaev dek      puzeusa"
+      eLine="upwards one-hundred step climb     we  so-that on     roof of college complete moved.[we]"
+    />
+
+    <Trans 
+      english="Mary tripped over her dog and tumbled down the hill"
+      gevey="Marje ye ken tusair baifyate bljois modukc tjakail snemrjeuse"
+      gLine="Marje ye ken tusair baifyate  bljois  modukc    tjakail snemrjeuse"
+      eLine="Mary     her dog    trip-over so-that downwards hill    tumbled.[she]"
+    />
+
+  </section>
+
   <div class="page-nav-mark" id="axis" />
   <section>
     <h2>Turn and spin: movement around an axis</h2>
@@ -433,7 +485,7 @@
     <ul>
       <li><First phrase="seksaduo" /> <b>pivot, go left|right|back, <strong>turn</strong></b> &ndash; change direction.</li>
 
-      <li><First phrase="êdxuo" /> <b>coil, revolve, rotate, <strong>spin</strong>, twirl, twist, whirl, wind</b> &ndash; move around an axis.</li>
+      <li><First phrase="êdxuo" /> <b>circle, coil, loop, revolve, rotate, <strong>spin</strong>, twirl, twist, whirl, wind</b> &ndash; move around an axis.</li>
     </ul>
 
     <aside>
@@ -442,27 +494,85 @@
       <p>The absolute directions that Gevey speakers will use often depend on where they are situated. While the cardinal directions (<i>leilu, tcotelu, trolu, tuintelu</i>) will be used as a fallback, speakers will more often reference local landmarks, or objects that both speaker and listener can see.</p>
 
       <p>In particular, Gevey does not have specific words for "left" and "right". When it comes to handedness, a person will be able to identify their <i>hacoewe</i> (main, or grasping, hand) from their <i>tfecoewe</i> (other, or holding, hand) &ndash; but this is dependent entirely on that person's handedness, thus is not useful for giving directions.</p>
+
+      <p>Note that speakers often use <i>wjabzastu</i> (to the right, clockwise) and <i>wjabzastanu</i> (to the left, anti-clockwise) as referents to describe the rotation of non-human things.</p>
     </aside>
+
+    <p>Be aware that when giving directions, Gevey speakers will commonly drop the preposition <i>tasukc</i> (towards).</p>
+
+    <Trans 
+      english="Walk along that road, you pass by the school then turn to the west"
+      gevey="Dezdukc tisk mrjit trado, casukc tselaef puzo meetc tuintel seksado"
+      gLine="dezdukc       tisk mrjit trado,      casukc tselaef puzo       meetc           tuintel seksado"
+      eLine="along/through road that  walk.[you], past   school  move.[you] then  [towards] west    turn.[you]"
+    />
+
+    <p>Unlike most of the verbs covered above, <i>êdxuo</i> is a transitive action. When no patient/theme noun is present speakers will assume the action is reflexive:</p>
+
+    <Trans 
+      english="She screwed the bottle's lid down tightly"
+      gevey="Yu teljaef kunj yapaitj êdxete glaerjet ke"
+      gLine="yu teljaef kunj yapaitj êdxete  glaerjet ke"
+      eLine="   lid     of   bottle  screwed tightly  she"
+    />
+
+    <Trans 
+      english="The bottle's lid was tightly screwed down"
+      gevey="Yu teljaev kunj yapaitj êdxed glaerjet"
+      gLine="yu teljaev kunj yapaitj êdxed       glaerjet"
+      eLine="   lid     of   bottle  was.screwed tightly"
+    />
   </section>
 
-  <div class="page-nav-mark" id="vertical" />
+  <div class="page-nav-mark" id="impact" />
   <section>
-    <h2>Vertical movement</h2>
+    <h2>When movement stops; movement as a result of impact</h2>
 
+    <p>Movement cessation is handled by applying the appropriate <em>completion determiner</em> to the verb:</p>
+
+    <Trans 
+      english="I stopped jogging around the neighbourhood"
+      gevey="Ta voa Qaasail dezdugx bezyuil dek tradata"
+      gLine="Ta voa  Qaasail    dezdugx bezyuil       glaa tradata"
+      eLine="I  like Air.person around  neighbourhood halt walked [=jogged]"
+    />
+
+    <Trans 
+      english="Peter finished swaggering through the temple"
+      gevey="Petrje dezdukc qadeizg dek cwegate"
+      gLine="Petrje dezdukc qadeizg dek      cwegate"
+      eLine="Peter  through temple  complete swaggered"
+    />
+
+    <p>To indicate some sort of impact is ongoing, or has affected the motion, Gevey speakers will commonly employ the generic verb <i>pombuo</i>.</p>
     <ul>
-      <li><First phrase="zniikjkuo" /> <b>cascade, collapse, drop, <strong>fall</strong>, <strong>jump</strong>, leap, plummet, plunge, pitch, spring, vault</b> &ndash; with no contact to a surface or projection.</li>
-      <li><First phrase="snemrjuo" /> <b>ascend, clamber, <strong>climb</strong>, come up/down, descend, dismount, go up/down, mount, scale, scramble, shinny, swing, tumble</b> &ndash; in contact with a surface or projection.</li>
-    </ul>
-  </section>
-
-  <div class="page-nav-mark" id="exchange" />
-  <section>
-    <h2>Exchange movements</h2>
-
-    <ul>
-      <li><First phrase="___" /> <b>___</b> &ndash; ???.</li>
+      <li><First phrase="pombuo" /> <b><strong>bounce</strong>, bump, rebound, recoil, ricochet</b> &ndash; any movement following an impact with something.</li>
     </ul>
 
+    <p>Again, unlike most of the verbs covered above, <i>pombuo</i> is a transitive action. When no patient/theme noun is present speakers will assume the action is reflexive:</p>
+
+    <Trans 
+      english="John bounced his ball against the wall"
+      gevey="Dxone yu ken leib ântudx deuft pombate"
+      gLine="dxone yu ken leib ântudx   deuft pombate"
+      eLine="John     his ball off-from wall  bounced"
+    />
+
+    <Trans 
+      english="The ball bounced against the wall"
+      gevey="Yu leib ântudx deuft pombat"
+      gLine="yu leib ântudx   deuft pombat"
+      eLine="   ball off-from wall  bounced"
+    />
+
+    <p>Speakers will also use <i>pombuo</i> when saying they have bumped into or against something - in such cases they commonly use <i>tasutc</i> (towards) as the preposition:</p>
+
+    <Trans 
+      english="John bumped against the wall"
+      gevey="Dxone tasudx deuft pombate"
+      gLine="dxone           tasudx  deuft pombate"
+      eLine="John  [himself] towards wall  bumped"
+    />
   </section>
 
   <div class="page-nav-mark" id="glossary" />

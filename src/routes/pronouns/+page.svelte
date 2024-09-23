@@ -342,6 +342,8 @@
       eLine="Mary     woman was.next.to me see[?]"
     />
 
+    <p>(Note the use of the past tense in the above embedded/associative clauses - the woman is not sitting next to me any more).</p>
+
     <h4>Addressed status (2<sup>nd</sup> person) pronouns</h4>
 
     <p>All <First phrase="rezdonuo" /> <b>addressed status</b> pronouns include the person(s) the speaker is talking to (in English, <em>you</em>). Similar to the 'self', the 'addressed' &ndash; the people listening &ndash; are, by definition, <em>old information</em>; you all know who you are.</p>
