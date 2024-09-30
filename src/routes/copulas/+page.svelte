@@ -17,6 +17,39 @@
   <div class="page-nav-mark" id="intro" />
   <section>
     <h2>Introduction</h2>
+
+    <div class="copula-table">
+      <div>Duration</div>
+      <div>Future</div>
+      <div>Present</div>
+      <div>Past</div>
+      <div>Irrealis</div>
+      <div>Immediate</div>
+      <div><First phrase="ni" /><br /><b>will be</b></div>
+      <div><First phrase="wi" /><br /><b>am, is, are</b></div>
+      <div><First phrase="fi" /><br /><b>was, were</b></div>
+      <div><First phrase="rji" /><br /><b>be</b></div>
+      <div>Substantive</div>
+      <div><First phrase="beni" /><br /><b>will be, will remain</b></div>
+      <div><First phrase="bi" /><br /><b>am, is, are, remains</b></div>
+      <div><First phrase="beti" /><br /><b>was, were, remained</b></div>
+      <div><First phrase="berji" /><br /><b>be, remain</b></div>
+      <div>Adaptive</div>
+      <div><First phrase="seni" /><br /><b>will be, will become</b></div>
+      <div><First phrase="si" /><br /><b>am, is, are, becomes</b></div>
+      <div><First phrase="seti" /><br /><b>was, were, became</b></div>
+      <div><First phrase="serji" /><br /><b>be, become</b></div>
+      <div>Permanent</div>
+      <div><First phrase="hani" /><br /><b>will be</b></div>
+      <div><First phrase="hi" /><br /><b>am, is, are</b></div>
+      <div><First phrase="hati" /><br /><b>was, were</b></div>
+      <div><First phrase="harji" /><br /><b>be</b></div>
+      <div>Apparent</div>
+      <div><First phrase="tceni" /><br /><b>will be like</b></div>
+      <div><First phrase="tci" /><br /><b>am like, is like, are like</b></div>
+      <div><First phrase="tceki" /><br /><b>was like, were like</b></div>
+      <div><First phrase="tcerji" /><br /><b>be like</b></div>
+    </div>
   </section>
 
   <pre>
@@ -123,5 +156,18 @@
   }
   h4 {
     margin-top: 2rem;
+  }
+  .copula-table {
+    display: grid;
+    overflow-x: auto;
+    grid-template-columns: 8rem repeat(4, 9rem);
+    padding: 0.3rem;
+    border: 1px dashed darkkhaki;
+  }
+  .copula-table b {
+    font-size: 60%;
+  }
+  .copula-table div {
+    margin-bottom: 1rem;
   }
 </style>

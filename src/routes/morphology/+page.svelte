@@ -206,6 +206,8 @@
       <li><First phrase="ceven" /> <b>exclusive</b> &ndash; but not</li>
     </ul>
 
+    <p>These determiners can also be used to list modifiers.</p>
+
     <h4>Numbers</h4>
 
     <p><First phrase="seevyu" /> <b>Numbers</b> are, as they say, their own world. Gevey has two <First phrase="seevmavuo" /> <b>number classes</b> whose words differ only by an infix: <First phrase="seevmavuo dxek" /> <b>cardinal numbers</b>, for quantity and counting; and <First phrase="seevmavuo setwalaik" /> <b>ordinal numbers</b>, for specifying and ranking.</p>

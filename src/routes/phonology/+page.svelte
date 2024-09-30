@@ -431,8 +431,8 @@ xm xn
       <div>
 fl                fr       fy
     vlj               vrj  vy
-&nbsp;
-             zwj
+         sw       sr       sy
+             zwj      zrj  zy
          cw
 &nbsp;
          kjw

@@ -64,9 +64,9 @@
 
     <Trans 
       english="He was small, yet strong"
-      gevey="Keu nwjuiseu qadxeu seerj fi"
-      gLine="keu nwjuiseu qadxeu seerj fi"
-      eLine="he  small    strong very  was"
+      gevey="Keu nwjuiseu lowje qadxeerjeu fi"
+      gLine="keu nwjuiseu lowje qadxeerjeu   fi"
+      eLine="he  small    yet   strong.very  was"
     />
 
     <p>Comparisons between people, objects, etc commonly use a target clause.</p>
@@ -171,19 +171,19 @@
 
     <p><First phrase="wjadostcuo hruiglom" /> <b>Embedded clauses</b>, also known as <em>relative clauses</em>, modify nouns.</p>
 
+    <p>Be aware of tenses: Gevey speakers generally use <em>absolute relative tense</em> formations, which means (in practical terms) only the first clause in an utterance will carry tense information with subsequent clauses taaking the present tense.</p>
+
     <Trans 
       english="We watched the woman. She was standing by the tree"
-      gevey="Ye gyant galtata sta. Basubz rjab noisuomate ke"
-      gLine="ye gyant galtata sta - basubz rjab noisuomate ke"
-      eLine="   woman watched we  - beside tree stood      she"
+      gevey="Ye gyant galtata sya. Basubz rjab noisuome ke"
+      gLine="ye gyant galtata sya - basubz rjab noisuome ke"
+      eLine="   woman watched we  - beside tree stand    she"
     />
-
-    <p>Be aware of tenses when embedding a clause. Gevey speakers use <em>relative tense</em> formations (see below), which means the embedded clause will generally move to the present tense:</p>
 
     <Trans 
       english="We watched the woman who was standing by the tree"
-      gevey="Ye gyant ó basubz rjab noisuome xo galtata sta"
-      gLine="ye gyant ó   basubz rjab noisuome xo galtata sta"
+      gevey="Ye gyant ó basubz rjab noisuome xo galtata sya"
+      gLine="ye gyant ó   basubz rjab noisuome xo galtata sya"
       eLine="   woman who beside tree stands      watched we"
     />
 
@@ -191,8 +191,8 @@
 
     <Trans 
       english="We watched the woman by the tree"
-      gevey="Ye gyant bawibz rjabu galtata sta"
-      gLine="ye gyant bawibz    rjabu galtata sta"
+      gevey="Ye gyant bawibz rjabu galtata sya"
+      gLine="ye gyant bawibz    rjabu galtata sya"
       eLine="   woman is.beside tree  watched we"
     />
 

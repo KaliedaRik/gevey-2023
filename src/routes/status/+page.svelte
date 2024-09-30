@@ -73,7 +73,7 @@
 
     <p>When talking more generally about the attributes and actions of a group of similar actors &ndash; <em>all cats purr</em>, <em>in general, doctors have to like people</em> &ndash; the <First phrase="ûidwjohuo tsuo kjiint" /> <b>template status</b> will be applied to those agents.</p>
 
-    <p>Theese promotion statuses are marked using the following vowels:</p>
+    <p>These promotion statuses are marked using the following vowels:</p>
 
     <ul>
       <li><em>Specified status</em> <b><strong>-oe-</strong></b></li>

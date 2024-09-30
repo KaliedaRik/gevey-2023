@@ -579,6 +579,15 @@ VALUES
 	NULL,
 	' root '
 ),(
+	'nwjopu',
+	'nwjopu',
+	'nwjop',
+	'noun',
+	'corner, angle',
+	NULL,
+	NULL,
+	'  '
+),(
 	'kaontcuifu',
 	'kaontcuifu',
 	'kaontcuif',
@@ -1068,7 +1077,7 @@ VALUES
 	'modifier word, adjective, adverb',
 	NULL,
 	'a contraction of <em>ûkceljtuo tsu ûmav</em>',
-	' morphology '
+	' morphology modifiers '
 ),(
 	'tcerjdu',
 	NULL,
@@ -1118,7 +1127,7 @@ VALUES
 	'noun',
 	NULL,
 	'a contraction of <em>zekjuo tsu ûmav</em>',
-	' prosody nouns status '
+	' prosody nouns status modifiers '
 ),(
 	'balmavuo',
 	'balmavuo',
@@ -1127,7 +1136,7 @@ VALUES
 	'verb',
 	NULL,
 	'a contraction of <em>baluo tsu ûmav</em>',
-	' prosody '
+	' prosody modifiers '
 ),(
 	'zekjmavuo tsuo kotj',
 	'zekjmavuo tsuo kotj',
@@ -1261,7 +1270,7 @@ VALUES
 	'verb: transitive',
 	'find, discover, locate, consider',
 	NULL,
-	NULL,
+	'generic discovery',
 	' noun-phrases '
 ),(
 	'ieluo',
@@ -1295,7 +1304,16 @@ VALUES
 	'viebljuo',
 	'viebil',
 	'verb: transitive',
-	'put, put down, place, set',
+	'locate, place, position, put, put down',
+	NULL,
+	NULL,
+	' noun-phrases '
+),(
+	'kjnuizuo',
+	'kjnuizuo',
+	'kjnuizg',
+	'verb: transitive',
+	'gather, lift, pick up, remove',
 	NULL,
 	NULL,
 	' noun-phrases '
@@ -1408,6 +1426,15 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'kaeljuo',
+	'kaeljuo',
+	'kaelj',
+	'verb: transitive',
+	'search, search for, hunt for',
+	NULL,
+	NULL,
+	' modifiers '
+),(
 	'acwotju',
 	'äcwotju',
 	'äcwotj',
@@ -1422,6 +1449,15 @@ VALUES
 	'drjedz',
 	'noun',
 	'holiday, vacation, break, time away from',
+	NULL,
+	NULL,
+	'  '
+),(
+	'pahu',
+	'pahu',
+	'pat',
+	'noun',
+	'bread',
 	NULL,
 	NULL,
 	'  '
@@ -1442,7 +1478,7 @@ VALUES
 	'focus marker',
 	NULL,
 	NULL,
-	' morphology '
+	' morphology modifiers '
 ),(
 	'zekjmavuo fect',
 	'zekjmavuo fect',
@@ -1492,7 +1528,7 @@ VALUES
 	'time',
 	NULL,
 	NULL,
-	'  '
+	' modifiers '
 ),(
 	'zekjmavuo tsuo syesk',
 	'zekjmavuo tsuo syesk',
@@ -1994,6 +2030,15 @@ VALUES
 	NULL,
 	' movement-verbs '
 ),(
+	'feznouqju',
+	'feznouqju',
+	'feznouqj',
+	'noun',
+	'clock, watch, time piece',
+	NULL,
+	NULL,
+	' modifiers '
+),(
 	'wjabzastanu',
 	'wjabzastanu',
 	'wjabzastant',
@@ -2065,6 +2110,15 @@ VALUES
 	NULL,
 	NULL,
 	' prepositions '
+),(
+	'vyenu',
+	'vyenu',
+	'vyent',
+	'noun',
+	'circle, ring',
+	NULL,
+	NULL,
+	' modifiers '
 ),(
 	'octu',
 	'óctu',
@@ -2447,7 +2501,7 @@ VALUES
 	'Mary',
 	NULL,
 	'a foreign name amended to fit Gevey phonological requirements',
-	' nouns noun-list prepositions '
+	' nouns noun-list prepositions modifiers '
 ),(
 	'Dxone',
 	'Dxone',
@@ -2578,7 +2632,16 @@ VALUES
 	'clause, sentence',
 	NULL,
 	NULL,
-	' words grammar '
+	' words grammar modifiers '
+),(
+	'benju',
+	'benju',
+	'bend',
+	'noun',
+	'milk',
+	NULL,
+	NULL,
+	'  '
 ),(
 	'wedjuiku',
 	'wedjuiku',
@@ -2612,6 +2675,15 @@ VALUES
 	'coebil',
 	'verb: transitive',
 	'break, chop',
+	NULL,
+	NULL,
+	'  '
+),(
+	'putruo',
+	'putruo',
+	'putair',
+	'verb: transitive',
+	'sell, market',
 	NULL,
 	NULL,
 	'  '
@@ -2695,7 +2767,7 @@ VALUES
 	'apple',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'loarjmu',
 	'loarjmu',
@@ -2772,6 +2844,15 @@ VALUES
 	'bljuidrjeugu',
 	'bljuidrjeugu',
 	'bljuidrjeug',
+	'noun',
+	'mechanical engine',
+	NULL,
+	NULL,
+	'  '
+),(
+	'byuicnuisu',
+	'byuicnuisu',
+	'byuicnuisk',
 	'noun',
 	'mechanical engine',
 	NULL,
@@ -2887,6 +2968,15 @@ VALUES
 	'tfoudav',
 	'noun',
 	'system',
+	NULL,
+	NULL,
+	'  '
+),(
+	'hlodrju',
+	'hlodrju',
+	'hlodairj',
+	'noun',
+	'bench, sofa, settee, shared seating',
 	NULL,
 	NULL,
 	'  '
@@ -3671,6 +3761,15 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'kyasuo',
+	'kyasuo',
+	'kyask',
+	'verb: transitive',
+	'learn, realise, remind',
+	NULL,
+	NULL,
+	'  '
+),(
 	'setwalkuo',
 	'setwalkuo',
 	'setwalaik',
@@ -3908,11 +4007,38 @@ VALUES
 	'tabuo',
 	'tabuo',
 	'tab',
-	'verb: intransitive-stative',
-	'rest',
+	'verb: transitive',
+	'arrange, balance, deposit, hang, insert, install, introduce, park, pose, rest, settle, set, situate',
+	NULL,
+	'place with care',
+	'  '
+),(
+	'ljumzuo',
+	'ljumzuo',
+	'ljumuizd',
+	'verb: intransitive-active',
+	'agree',
 	NULL,
 	NULL,
 	'  '
+),(
+	'ljumzaqu',
+	'ljumzaqu',
+	'ljumzaq',
+	'noun',
+	'agreement, contract',
+	NULL,
+	NULL,
+	'  '
+),(
+	'tcegmu',
+	'tcegmu',
+	'tcegaem',
+	'noun',
+	'shoe, slipper',
+	NULL,
+	NULL,
+	' modifiers '
 ),(
 	'taluo',
 	'taluo',
@@ -4040,14 +4166,23 @@ VALUES
 	NULL,
 	' grammar '
 ),(
-	'ekjuife',
-	'ékjuife',
+	'ekjuifu',
+	'ékjuifu',
 	NULL,
 	'modifier',
 	'active',
 	NULL,
 	NULL,
 	'  '
+),(
+	'syaegu',
+	'syaegu',
+	NULL,
+	'modifier',
+	'cold',
+	NULL,
+	NULL,
+	' modifiers '
 ),(
 	'syafe',
 	'syafe',
@@ -4108,6 +4243,42 @@ VALUES
 	NULL,
 	'modifier',
 	'main, chief, central, major, significant',
+	NULL,
+	NULL,
+	'  '
+),(
+	'tcoiku',
+	'tcoiku',
+	NULL,
+	'modifier',
+	'slim, thin, skinny',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'laevlu',
+	'laevlu',
+	NULL,
+	'modifier',
+	'eager, greedy',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'zmedxu',
+	'zmedxu',
+	NULL,
+	'modifier',
+	'fat, broad, bloated',
+	NULL,
+	NULL,
+	'  '
+),(
+	'muidxe',
+	'muidxe',
+	NULL,
+	'modifier',
+	'average, not slim or fat',
 	NULL,
 	NULL,
 	'  '
@@ -4723,7 +4894,7 @@ VALUES
 	'small, little, tiny',
 	NULL,
 	NULL,
-	' grammar noun-list '
+	' grammar noun-list modifiers '
 ),(
 	'dxarju',
 	'dxarju',
@@ -4732,7 +4903,7 @@ VALUES
 	'big, large, huge, enormous, vast',
 	NULL,
 	NULL,
-	' noun-list noun-phrases '
+	' noun-list noun-phrases modifiers '
 ),(
 	'dxoesu',
 	'dxoesu',
@@ -4750,7 +4921,7 @@ VALUES
 	'red',
 	NULL,
 	NULL,
-	' noun-phrases pronouns '
+	' noun-phrases pronouns modifiers '
 ),(
 	'gyuitju',
 	'gyuitju',
@@ -4792,10 +4963,10 @@ VALUES
 	'ûmavu âkjglu',
 	NULL,
 	'noun phrase',
-	'soft word',
+	'soft word, word stem',
 	NULL,
 	'the plastic, modifiable form of a word',
-	' words '
+	' words modifiers '
 ),(
 	'glaerju',
 	'glaerju',
@@ -4822,7 +4993,7 @@ VALUES
 	'strong',
 	NULL,
 	NULL,
-	' grammar '
+	' grammar modifiers '
 ),(
 	'houru',
 	'houru',
@@ -4851,6 +5022,33 @@ VALUES
 	NULL,
 	' phonology '
 ),(
+	'byuicnu',
+	'byuicnu',
+	'byuicent',
+	'noun',
+	'wind',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'zobzvyu tsu tanjorj',
+	'zobzvyu tsu tanjorj',
+	NULL,
+	'noun phrase',
+	'modifier intensity infix',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'zobzvyu tsu ljumzaq',
+	'zobzvyu tsu ljumzaq',
+	NULL,
+	'noun phrase',
+	'modifier agreement suffix',
+	NULL,
+	NULL,
+	' modifiers '
+),(
 	'kaonu',
 	'kaonu',
 	NULL,
@@ -4859,6 +5057,42 @@ VALUES
 	NULL,
 	NULL,
 	' root prosody '
+),(
+	'camu',
+	'camu',
+	NULL,
+	'modifier',
+	'slow, slowly',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'paenduo',
+	'paenduo',
+	'paend',
+	'verb: transitive',
+	'care for, tend, attend to, look after, nurse',
+	NULL,
+	NULL,
+	'  '
+),(
+	'epaendu',
+	'épaendu',
+	NULL,
+	'modifier',
+	'careful, carefully',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'duigxu',
+	'duigxu',
+	NULL,
+	'modifier',
+	'difficult, hard, tough',
+	NULL,
+	NULL,
+	' modifiers '
 ),(
 	'byudu',
 	'byudu',
@@ -4896,6 +5130,15 @@ VALUES
 	'physical and temporal length',
 	' phonology prepositions '
 ),(
+	'njakaqu tfegu',
+	'njakaqu tfegu',
+	'yu tfegu njakaq',
+	'noun',
+	'associative role noun',
+	NULL,
+	NULL,
+	' prepositions '
+),(
 	'dxoesu',
 	'dxoesu',
 	NULL,
@@ -4921,7 +5164,7 @@ VALUES
 	'tall',
 	NULL,
 	'specifically a person''s height',
-	' grammar noun-list '
+	' grammar noun-list modifiers '
 ),(
 	'tovu',
 	'tovu',
@@ -4930,7 +5173,7 @@ VALUES
 	'loud',
 	NULL,
 	NULL,
-	' prosody '
+	' prosody modifiers '
 ),(
 	'uimu',
 	'üimu',
@@ -4939,7 +5182,7 @@ VALUES
 	'quiet',
 	NULL,
 	NULL,
-	' prosody '
+	' prosody modifiers '
 ),(
 	'cowju',
 	'cowju',
@@ -5097,7 +5340,7 @@ VALUES
 	'black',
 	NULL,
 	NULL,
-	' grammar '
+	' grammar modifiers '
 );
 
 -- EMOTIONS (1)
@@ -5157,6 +5400,24 @@ VALUES
 	NULL,
 	NULL,
 	' prosody '
+),(
+	'vifme',
+	'vifme',
+	'vifuim',
+	'noun',
+	'girl, lass, kid, child',
+	NULL,
+	NULL,
+	' modifiers '
+),(
+	'rjapte',
+	'rjapte',
+	'rjapt',
+	'noun',
+	'boy, lad, kid, child',
+	NULL,
+	NULL,
+	' modifiers '
 ),(
 	'tatambuo',
 	'tatambuo',
@@ -5239,6 +5500,15 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'ekielu',
+	'êkielu',
+	'êkiel',
+	'noun',
+	'corridor, passage, hallway',
+	NULL,
+	NULL,
+	' modifiers '
+),(
 	'zobzvyu tsu kjiint',
 	'zobzvyu tsu kjiint',
 	NULL,
@@ -5283,6 +5553,15 @@ VALUES
 	NULL,
 	NULL,
 	' prosody '
+),(
+	'qweru',
+	'qweru',
+	'qwer',
+	'noun',
+	'nail, pin',
+	NULL,
+	NULL,
+	'  '
 ),(
 	'taxnequo',
 	'taxnequo',
@@ -5419,10 +5698,55 @@ VALUES
 	'tcaptuo',
 	'tcapt',
 	'verb: transitive',
-	'point at',
+	'aim, aim at, point, point at',
 	NULL,
 	NULL,
 	' derivations '
+),(
+	'timuo',
+	'timuo',
+	'tim',
+	'verb: transitive',
+	'arrange, spread, station',
+	NULL,
+	NULL,
+	'  '
+),(
+	'cuikluo',
+	'cuikluo',
+	'cuikuil',
+	'verb: transitive',
+	'spread out, disperse',
+	NULL,
+	NULL,
+	'  '
+),(
+	'arjikcuo',
+	'ârjikcuo',
+	'ârjikack',
+	'verb: transitive',
+	'apply, ensconse, force, lodge, nail, plant, plunk, stick, wedge',
+	NULL,
+	NULL,
+	'  '
+),(
+	'dxemsuo',
+	'dxemsuo',
+	'dxemaesk',
+	'verb: intransitive-active',
+	'crouch, squat',
+	NULL,
+	'applies to people',
+	'  '
+),(
+	'sadjuo',
+	'sadjuo',
+	'sadj',
+	'verb: intransitive-active',
+	'lay, lay down, lay on',
+	NULL,
+	'applies to people',
+	'  '
 ),(
 	'kliixguo',
 	'kliixguo',
@@ -5440,7 +5764,7 @@ VALUES
 	'dog',
 	NULL,
 	NULL,
-	' derivations '
+	' derivations modifiers '
 ),(
 	'paaqu',
 	'paaqu',
@@ -5637,8 +5961,8 @@ VALUES
 	'first person inclusive plural',
 	'  pronouns '
 ),(
-	'sta | stas | stiiy | stiim | stan',
-	'sta | stas | stiiy | stiim | stan',
+	'sya | syas | syiiy | syiim | syan',
+	'sya | syas | syiiy | syiim | syan',
 	NULL,
 	'pronoun',
 	'we, us, our, ours',
@@ -5646,8 +5970,8 @@ VALUES
 	'first person exclusive plural',
 	'  pronouns '
 ),(
-	'stemza | stemzas | stemziiy | stemziim | stemzan',
-	'stemza | stemzas | stemziiy | stemziim | stemzan',
+	'syemza | syemzas | syemziiy | syemziim | syemzan',
+	'syemza | syemzas | syemziiy | syemziim | syemzan',
 	NULL,
 	'pronoun',
 	'we all, us all, all our, all ours',
@@ -6045,7 +6369,7 @@ VALUES
 	'(this) here [near speaker], now',
 	NULL,
 	NULL,
-	' words morphology noun-phrases pronouns '
+	' words morphology noun-phrases pronouns modifiers '
 ),(
 	'viljt | viljtoe | viljtoes | viljtcoe | viljtcoem | viljtoen',
 	'viljt | viljtoe | viljtoes | viljtcoe | viljtcoem | viljtoen',
@@ -6659,6 +6983,15 @@ VALUES
 	NULL,
 	' pronouns '
 ),(
+	'gadxuo',
+	'gadxuo',
+	'gadx',
+	'verb: transitive',
+	'keep, keep safe, maintain',
+	NULL,
+	NULL,
+	' modifiers '
+),(
 	'dxetuo',
 	'dxetuo',
 	'dxet',
@@ -6692,8 +7025,26 @@ VALUES
 	'verb: intransitive-active',
 	'sit, sit down',
 	NULL,
-	NULL,
+	'applies to people',
 	' pronouns '
+),(
+	'biquo',
+	'biquo',
+	'biq',
+	'verb: intransitive-active',
+	'lean, rest against',
+	NULL,
+	'applies to people',
+	'  '
+),(
+	'gletsuo',
+	'gletsuo',
+	'glets',
+	'verb: intransitive-active',
+	'perch, balance on',
+	NULL,
+	'applies to people',
+	'  '
 ),(
 	'nexljuo',
 	'nexljuo',
@@ -6783,7 +7134,7 @@ VALUES
 	'work, job',
 	NULL,
 	NULL,
-	' noun-phrases prepositions '
+	' noun-phrases prepositions modifiers '
 ),(
 	'kjetuilu',
 	'kjetuilu',
@@ -6855,7 +7206,7 @@ VALUES
 	'woman',
 	NULL,
 	NULL,
-	' words pronouns '
+	' words pronouns modifiers '
 ),(
 	'arjnuo',
 	'árjnuo',
@@ -6967,7 +7318,7 @@ VALUES
 	'verb: transitive',
 	'face, stand opposite',
 	NULL,
-	NULL,
+	'applies to people',
 	'  '
 ),(
 	'rezduo',
@@ -6976,7 +7327,7 @@ VALUES
 	'verb: intransitive-active',
 	'get up, rise, stand up',
 	NULL,
-	NULL,
+	'applies to people',
 	'  '
 ),(
 	'noirjabuo',
@@ -6985,7 +7336,7 @@ VALUES
 	'verb: intransitive-stative',
 	'stand about, loiter',
 	NULL,
-	NULL,
+	'applies to people',
 	'  '
 ),(
 	'noisuomuo',
@@ -6994,16 +7345,16 @@ VALUES
 	'verb: intransitive-stative',
 	'stand still',
 	NULL,
-	NULL,
+	'applies to people',
 	' grammar '
 ),(
 	'poluo',
 	'poluo',
 	'pol',
 	'verb: transitive',
-	'stand, place',
+	'affix, anchor, embed, fasten, fix, hang, mount, nail, place, stand',
 	NULL,
-	NULL,
+	'place with intent of permanence',
 	'  '
 ),(
 	'pyuimuo',
@@ -7243,7 +7594,7 @@ VALUES
 	'room, hall',
 	NULL,
 	'any large enclosed space, communal area',
-	'  '
+	' modifiers '
 ),(
 	'geugu',
 	'geugu',
@@ -7297,7 +7648,7 @@ VALUES
 	'cat',
 	NULL,
 	NULL,
-	' grammar '
+	' grammar modifiers '
 ),(
 	'leibzekuo',
 	'leibzekuo',
@@ -7387,7 +7738,7 @@ VALUES
 	'brother',
 	NULL,
 	NULL,
-	' noun-list '
+	' noun-list modifiers '
 ),(
 	'yaptju',
 	'yaptju',
@@ -7569,6 +7920,24 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'ljune',
+	'ljune',
+	'ljunt',
+	'noun',
+	'mother, mom, mum',
+	NULL,
+	NULL,
+	' modifier '
+),(
+	'take',
+	'take',
+	'tak',
+	'noun',
+	'father, dad',
+	NULL,
+	NULL,
+	'  '
+),(
 	'veedxljusu',
 	'veedxljusu',
 	'veedxljusk',
@@ -7684,7 +8053,7 @@ VALUES
 	'sing',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions modifiers '
 ),(
 	'umavarjnu tsu ceev',
 	'ûmavarjnu tsu ceev',
@@ -7693,7 +8062,7 @@ VALUES
 	'open word class',
 	NULL,
 	NULL,
-	' morphology '
+	' morphology modifiers '
 ),(
 	'umavarjnu',
 	'ûmavarjnu',
@@ -7743,7 +8112,7 @@ VALUES
 	'quick, quickly, fast',
 	NULL,
 	NULL,
-	' words morphology prepositions '
+	' words morphology prepositions modifiers '
 );
 
 -- DETERMINERS (2)
@@ -7955,7 +8324,7 @@ VALUES
 	'like, as-as',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers modifiers '
 ),(
 	'hakjem',
 	NULL,
@@ -7964,7 +8333,7 @@ VALUES
 	'quite, more',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'hast',
 	NULL,
@@ -7973,7 +8342,7 @@ VALUES
 	'most',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'ievd',
 	NULL,
@@ -7982,7 +8351,7 @@ VALUES
 	'definitely, absolutely, most of all',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'seerj',
 	NULL,
@@ -7991,7 +8360,7 @@ VALUES
 	'very',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'seuhem',
 	NULL,
@@ -8000,7 +8369,7 @@ VALUES
 	'not very',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'zambai',
 	NULL,
@@ -8009,7 +8378,7 @@ VALUES
 	'not enough',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'zarjeu',
 	NULL,
@@ -8018,7 +8387,7 @@ VALUES
 	'just, just enough',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'rjoil',
 	NULL,
@@ -8027,7 +8396,7 @@ VALUES
 	'too',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases modifiers '
 ),(
 	'oen',
 	NULL,
@@ -8198,7 +8567,7 @@ VALUES
 	'and, and at the same time',
 	NULL,
 	NULL,
-	' noun-phrases prepositions '
+	' noun-phrases prepositions modifiers '
 ),(
 	'sap',
 	NULL,
@@ -9782,7 +10151,7 @@ VALUES
 	'proper noun: metaphor',
 	'The Burning Woman',
 	NULL,
-	'from Âbeniikse''s Early History of the Balje Peoples: "... did she really foresee the future as she hung over her execution byre? Whatever the truth of the matter, she is remembered mostly as a metaphor for wishing ill upon others, for the laying of curses on the heads of adversaries."',
+	'from Âbeniikse''s Early History of the Balje Peoples: "... did she really foresee the future as she hung over her execution pyre? Whatever the truth of the matter, she is remembered mostly as a metaphor for wishing ill upon others, for the laying of curses on the heads of adversaries."',
 	'  '
 ),(
 	'Capeizne',

@@ -229,9 +229,9 @@
 
     <ul>
       <li><First phrase="ta" /> <b>I</b> &ndash; the speaker alone</li>
-      <li><First phrase="sta" /> <b>we</b> &ndash; the speaker and their companions, but not the listener</li>
+      <li><First phrase="sya" /> <b>we</b> &ndash; the speaker and their companions, but not the listener</li>
       <li><First phrase="muiza" /> <b>we</b> &ndash; the speaker and their listener(s), but nobody else</li>
-      <li><First phrase="stemza" /> <b>we</b> &ndash; everyone, including the speaker</li>
+      <li><First phrase="syemza" /> <b>we</b> &ndash; everyone, including the speaker</li>
     </ul>
 
     <p>We fit each of these pronouns into their <em>role templates</em> as follows:</p>
@@ -241,69 +241,69 @@
 
       <div class="role">agent</div>
       <div>ta</div>
-      <div>sta</div>
+      <div>sya</div>
       <div>muiza</div>
-      <div>stemza</div>
+      <div>syemza</div>
 
       <div class="role">instigator</div>
       <div>tas</div>
-      <div>stas</div>
+      <div>syas</div>
       <div>muizas</div>
-      <div>stemzas</div>
+      <div>syemzas</div>
 
       <div class="role">patient</div>
       <div>tiiy</div>
-      <div>stiiy</div>
+      <div>syiiy</div>
       <div>muiziiy</div>
-      <div>stemziiy</div>
+      <div>syemziiy</div>
 
       <div class="role">theme</div>
       <div>tiim</div>
-      <div>stiim</div>
+      <div>syiim</div>
       <div>muiziim</div>
-      <div>stemziim</div>
+      <div>syemziim</div>
 
       <div class="role">oblique</div>
       <div>s-Prep ta</div>
-      <div>s-Prep sta</div>
+      <div>s-Prep sya</div>
       <div>s-Prep muiza</div>
-      <div>s-Prep stemza</div>
+      <div>s-Prep syemza</div>
 
       <div class="role">associative</div>
       <div>c-Prep ta</div>
-      <div>c-Prep sta</div>
+      <div>c-Prep sya</div>
       <div>c-Prep muiza</div>
-      <div>c-Prep stemza</div>
+      <div>c-Prep syemza</div>
 
       <div class="role">possessor</div>
       <div>tan</div>
-      <div>stan</div>
+      <div>syan</div>
       <div>muizan</div>
-      <div>stemzan</div>
+      <div>syemzan</div>
 
       <div class="role">partitive</div>
       <div>takj</div>
-      <div>stakj</div>
+      <div>syakj</div>
       <div>muizakj</div>
-      <div>stemzakj</div>
+      <div>syemzakj</div>
 
       <div class="role">measure</div>
       <div>tarj</div>
-      <div>starj</div>
+      <div>syarj</div>
       <div>muizarj</div>
-      <div>stemzarj</div>
+      <div>syemzarj</div>
 
       <div class="role">specifier</div>
       <div>tats</div>
-      <div>stats</div>
+      <div>syats</div>
       <div>muizats</div>
-      <div>stemzats</div>
+      <div>syemzats</div>
 
       <div class="role">adaptor</div>
       <div>tav</div>
-      <div>stav</div>
+      <div>syav</div>
       <div>muizav</div>
-      <div>stemzav</div>
+      <div>syemzav</div>
 
       <div class="stretch-5"><hr /></div>
     </div>
