@@ -13,7 +13,8 @@
     ['#location', 'Location verbs'],
     ['#motion', 'Motion verbs'],
     ['#exchange', 'Exchange verbs'],
-    ['#oblique-domain', 'Oblique domain'],
+    ['#oblique', 'Oblique objects'],
+    ['#temporal', 'Temporal objects'],
     ['#glossary', 'Glossary'],
   ];
 </script>
@@ -226,13 +227,21 @@
 
     <ul>
       <li><First phrase="ârjikcuo" /> &ndash; <b>apply, ensconse, force, lodge, nail, plant, plunk, stick, wedge</b> - place with force</li>
+
       <li><First phrase="cuikluo" /> &ndash; <b>spread out, disperse</b> - place widely</li>
+
       <li><First phrase="fraedjuo" /> &ndash; <b>consider, discover, find, locate</b> - generic discovery</li>
+
       <li><First phrase="kjnuizuo" /> &ndash; <b>gather, lift, pick up, remove</b> - generic removal</li>
+
       <li><First phrase="poluo" /> &ndash; <b>affix, anchor, embed, fasten, fix, mount, nail, stand</b> - place with (some) permanence</li>
+
       <li><First phrase="tabuo" /> &ndash; <b>arrange, balance, deposit, hang, insert, install, introduce, park, pose, rest, settle, set, situate</b> - place with care</li>
+
       <li><First phrase="tcaptuo" /> &ndash; <b>aim, point</b> - place at a distance</li>
+
       <li><First phrase="timuo" /> &ndash; <b>arrange, lay out, spread, station</b> - place in (rough) order</li>
+
       <li><First phrase="viebljuo" /> &ndash; <b>locate, place, position, put, put down</b> - generic placement</li>
     </ul>
 
@@ -286,19 +295,217 @@
   <div class="page-nav-mark" id="motion" />
   <section>
     <h2>Motion verbs</h2>
-    <p>Stuff ...</p>
+
+    <p>In linguistic terms, Gevey is a <a href="https://en.wikipedia.org/wiki/Verb_framing">satellite-framed</a> language. As such, Gevey <em>movement verbs</em> do not encode the <em>path of motion</em> lexically (for example: 'enter', 'exit'), but rather uses dative prepositions to supply the necessary directional information.</p>
+
+    <p>Many <em>satellite-framed</em> languages encode the <em>manner of motion</em> ('walk', 'run', 'jump', 'drive', 'sail', etc) lexically, leading to a rich variety of manner-related verbs. Gevey does not follow this pattern. Instead it relies on a set of smaller, more generalised verbs which speakers will enhance (in various ways) to convey more subtle meanings, when required.</p>
+
+    <p>This site includes a separate page which explores <a href="movement-verbs">motion verbs</a> in more detail (including worked examples).
   </section>
 
   <div class="page-nav-mark" id="exchange" />
   <section>
     <h2>Exchange verbs</h2>
-    <p>Stuff ...</p>
+
+    <p>Gevey <b>exchange verbs</b> constitute a class of <em>causative transfer verbs</em> with a canonical low-applicative <a href="https://en.wikipedia.org/wiki/Ditransitive_verb">ditransitive alignment</a>, where the <em>Agent</em> [A] acts upon a <em>Theme</em> [T] (core object) and the <em>Recipient</em> [R] is expressed via a semantically-rich set of oblique prepositions.</p>
+
+    <p>To illustrate, the following English phrases all include a verb which, in Gevey, is treated as an exchange verb:</p>
+
+    <ul>
+      <li><b>I <b>gave</b> Mary the book</b><br />where: A = I, T = book, R = Mary</li>
+      <li><b>Mary <b>took</b> the book from me</b><br />where: A = Mary, T = book, R = me</li>
+      <li><b>John <b>passed</b> the ball to Alice</b><br />where: A = John, T = ball, R = Alice</li>
+      <li><b>Simon <b>told</b> Mary about the party</b><br />where: A = Simon, T = party, R = Mary</li>
+      <li><b>Peter <b>got</b> that gossip from me</b><br />where: A = Peter, T = gossip, R = me</li>
+      <li><b>Mary <b>sent</b> the roses to her mother</b><br />where: A = Mary, T = roses, R = her mother</li>
+      <li><b>I <b>received</b> some bad news yesterday</b><br />where: A is unspecified, T = some bad news, R = I (yesterday modifies the verb)</li>
+    </ul>
+
+    <p>These examples above show that exchange verbs often come in lexical pairs: <em>give, take</em>; <em>buy, sell</em>; <em>send, recieve</em>; <em>lend, borrow</em>; <em>offer, accept</em> etc. Gevey differs from English in that in these cases speakers use a single verb rather than lexical verb pairs; directionality is not encoded in the verb, but rather in the preposition used with the verb.</p>
+
+    <p>In Gevey, the instigator of the action takes the <em>Agent</em> role, while the item being transferred will be rendered in the <em>Patient</em> role (making these verbs <em>transitive</em>). The recipient of the action will take the <em>Oblique</em> role, mediated by an appropriate <em>oblique preposition</em>.</p>
+
+    <p>The following oblique prepositions are commonly used with exchange verbs by Gevey speakers:</p>
+
+    <ul>
+      <li><i>d<u>u</u>f | dui<u>wi</u>f</i> &ndash; <b>without, not possessing - (exchange: from)</b></li>
+      <li><i>tas<u>u</u>f | ta<u>wi</u>f</i> &ndash; <b>with, possessing - (exchange: to)</b></li>
+      <li><i>xus<u>u</u>f | xu<u>wi</u>f</i> &ndash; <b>for - (exchange: shared between us)</b></li>
+      <li><i>ânt<u>u</u>f | ânte<u>wi</u>f</i> &ndash; <b>instead of - (exchange: swapped between us)</b></li>
+    </ul>
+
+    <Trans 
+      english="I gave my lunch to Mary"
+      gevey="Yu tan êkunuiy tasef Marj pyuimata"
+      gLine="yu tan êkunuiy tasef Marj pyuimata"
+      eLine="   my  lunch   to    Mary gave.I[agent]"
+    />
+
+    <p>The exchange of lunch was a reasonable act.</p>
+
+    <Trans 
+      english="I (unwillingly) gave my lunch to Mary"
+      gevey="Yu tan êkunuiy tasef Marj pyuimata tas"
+      gLine="yu tan êkunuiy tasef Marj pyuimata tas"
+      eLine="   my  lunch   to    Mary gave     I[instigator]"
+    />
+
+    <p>Speaker believes the exchange was coerced, hence the use of the instigator role.</p>
+
+    <Trans 
+      english="Mary took my lunch because she was hungry"
+      gevey="Marje yu tan êkunuiy pyuimate daf pok átrjaqj meqje"
+      gLine="Marje yu tan êkunuiy pyuimate daf     pok     átrjaqj meqje"
+      eLine="Mary     my  lunch   took     from.me because hunger  felt.[she]"
+    />
+
+    <p>Speaker drops the oblique object (me), expecting context (and genitive 'my lunch') will offer sufficient details to make it clear that Mary took the lunch from them rather than, for example, a restaurant or a table.</p>
+
+    <Trans 
+      english="Peter smiled when he received the gossip from Alice"
+      gevey="Petrje piiqlate loyant yu dostcisem def Äleesk floame"
+      gLine="Petrje piiqlate loyant yu dostcisem def  Äleesk floame"
+      eLine="Peter  smiled   when      gossip    from Alice  received.[he]"
+    />
+
+    <Trans 
+      english="'She never buys lunch from the coffee shop,' he said"
+      gevey="Mavate, 'yu êkunuiy duf syaqjomak tatje nena ke'"
+      gLine="mavate,  'yu êkunuiy duf  syaqjomag   tatje nena  ke'"
+      eLine="he.said, '   lunch   from coffee.shop buy   never she'"
+    />
+
+    <p>Note that many Gevey speakers will also, routinely, change the oblique role object into an associative role object. This is typical of more informal registers of speech - people know it's "wrong" but still do it anyway:</p>
+
+    <Trans 
+      english="I gave my lunch to Mary"
+      gevey="Ta tawif Marje yu tan êkunuiy pyuimata"
+      gLine="ta       tawif Marje yu tan êkunuiy pyuimata"
+      eLine="I[agent] is.to Mary     my  lunch   gave"
+    />
+
+    <Trans 
+      english="I (unwillingly) gave my lunch to Mary"
+      gevey="Tas tawif Marje yu tan êkunuiy pyuimata"
+      gLine="tas           tawif Marje yu tan êkunuiy pyuimata"
+      eLine="I[instigator] is.to Mary     my  lunch   gave"
+    />
+
+    <Trans 
+      english="Mary took my lunch because she was hungry"
+      gevey="Marje duiwif ta yu tan êkunuiy pyuimate pok átrjaqj meqje"
+      gLine="Marje duiwif  ta yu tan êkunuiy pyuimate pok     átrjaqj meqje"
+      eLine="Mary  is.from me    my  lunch   took     because hunger  felt.[she]"
+    />
+
+    <Trans 
+      english="Peter smiled when he recieved the gossip from Alice"
+      gevey="Petrje piiqlate loyant ke duiwif Äleese yu dostcisem floame"
+      gLine="Petrje piiqlate loyant ke duiwif  Äleese yu dostcisem floame"
+      eLine="Peter  smiled   when   he is.from Alice     gossip    received"
+    />
+
+    <p>Exchanges, in Gevey, do not need to be transactional. The exchange-related prepositions and verbs can also be used to indicate that the parties to the action shared, or swapped, the object being discussed:</p>
+
+    <Trans 
+      english="John swapped his book with Peter"
+      gevey="Dxone yu ken caeb ântef Petairj pyuimate"
+      gLine="Dxone yu ken caeb ântef        Petairj pyuimate"
+      eLine="John     his book swapped.with Peter   gave.[he]"
+    />
+
+    <Trans 
+      english="Mary shared her lunch with John"
+      gevey="Marje yu ken êkunuiy xusev Dxont pyuimate"
+      gLine="Marje yu ken êkunuiy xusef       Dxont pyuimate"
+      eLine="Mary     her lunch   shared.with John  gave.[her]"
+    />
+
+    <p>And more informally:</p>
+
+    <Trans 
+      english="John swapped his book with Peter"
+      gevey="Dxone ântewif Petrje yu ken caep pyuimate"
+      gLine="Dxone ântewif         Petrje yu ken caeb pyuimate"
+      eLine="John  is.swapped.with Peter     his book gave.[he]"
+    />
+
+    <Trans 
+      english="Mary shared her lunch with John"
+      gevey="Marje xuwiv Dxone yu ken êkunuiy pyuimate"
+      gLine="Marje xuwif          Dxone yu ken êkunuiy pyuimate"
+      eLine="Mary  is.shared.with John     her lunch   gave.[her]"
+    />
   </section>
 
-  <div class="page-nav-mark" id="oblique-domain" />
+  <div class="page-nav-mark" id="oblique" />
   <section>
-    <h2>Verbs and the oblique domain</h2>
-    <p>Stuff ...</p>
+    <h2>Oblique objects as clause details</h2>
+
+    <p>Adding detail to clauses using oblique objects with temporal and oblique prepositions</p>
+
+    <p>Aboutness, cause and relevance</p>
+    <ul>
+      <li><i>tcelk<u>u</u>f | tcelka<u>wi</u>f</i> &ndash; <b>not concerning, not about</b></li>
+      <li><i>dezd<u>u</u>f | dezde<u>wi</u>f</i> &ndash; <b>concerning, about</b></li>
+      <li><i>kot<u>u</u>f | ko<u>wi</u>f</i> &ndash; <b>for (cause)</b></li>
+      <li><i>den<u>u</u>f | dene<u>wi</u>f</i> &ndash; <b>from (cause)</b></li>
+      <li><i>swas<u>u</u>f | swa<u>wi</u>f</i> &ndash; <b>for (quantifier)</b></li>
+    </ul>
+
+    <p>Identity and role</p>
+    <ul>
+      <li><i>tcuis<u>u</u>f | tcuisa<u>wi</u>f</i> &ndash; <b>not as</b></li>
+      <li><i>deb<u>u</u>f | deba<u>wi</u>f</i> &ndash; <b>as</b></li>
+    </ul>
+
+    <p>Accompaniment and association</p>
+    <ul>
+      <li><i>bas<u>u</u>f | ba<u>wi</u>f</i> &ndash; <b>with, accompanied by</b></li>
+      <li><i>mav<u>u</u>f | mava<u>wi</u>f</i> &ndash; <b>without, not accompanied by</b></li>
+      <li><i>vied<u>u</u>f | vie<u>wi</u>f</i> &ndash; <b>for the use of, in support of</b></li>
+      <li><i>gles<u>u</u>f | gle<u>wi</u>f</i> &ndash; <b>for the benefit of</b></li>
+    </ul>
+
+    <p>Instrument, means and product</p>
+    <ul>
+      <li><i>tob<u>u</u>f | tobo<u>wi</u>f</i> &ndash; <b>with, using</b></li>
+      <li><i>mod<u>u</u>f | modo<u>wi</u>f</i> &ndash; <b>without, not using</b></li>
+      <li><i>set<u>u</u>f | se<u>wi</u>f</i> &ndash; <b>from, by, as a product of</b></li>
+    </ul>
+
+    <p>[words on how oblique prepositions get used with intransitive and transitive clauses]</p>
+
+    <p>[Worked examples]</p>
+  </section>
+    
+  <div class="page-nav-mark" id="temporal" />
+  <section>
+    <h2>Temporal objects as verb modifiers</h2>
+
+    <p>[words on how temporal prepositions get used with intransitive and transitive clauses - spoiler: these are used to modify verbs, not nouns, and form part of the verb phrase]</p>
+
+    <p>[List of temporal prepositions]</p>
+    
+    <ul>
+      <li><i>d<u>u</u>lj | dui<u>wi</u>lj</i> &ndash; <b>not at, not during</b></li>
+      <li><i>tas<u>u</u>lj | ta<u>wi</u>lj</i> &ndash; <b>at, during</b></li>
+      <li><i>tcelk<u>u</u>lj | tcelka<u>wi</u>lj</i> &ndash; <b>sometime around</b></li>
+      <li><i>dezd<u>u</u>lj | dezde<u>wi</u>lj</i> &ndash; <b>between</b></li>
+      <li><i>bas<u>u</u>lj | ba<u>wi</u>lj</i> &ndash; <b>at the start of</b></li>
+      <li><i>cas<u>u</u>lj | ca<u>wi</u>lj</i> &ndash; <b>in the middle of</b></li>
+      <li><i>mav<u>u</u>lj | mava<u>wi</u>lj</i> &ndash; <b>near the end of</b></li>
+      <li><i>tcuis<u>u</u>lj | tcuisa<u>wi</u>lj</i> &ndash; <b>some time before</b></li>
+      <li><i>xus<u>u</u>lj | xu<u>wi</u>lj</i> &ndash; <b>just before</b></li>
+      <li><i>ânt<u>u</u>lj | ânte<u>wi</u>lj</i> &ndash; <b>just after</b></li>
+      <li><i>deb<u>u</u>lj | deba<u>wi</u>lj</i> &ndash; <b>some time after</b></li>
+      <li><i>tob<u>u</u>lj | tobo<u>wi</u>lj</i> &ndash; <b>until, before, by</b></li>
+      <li><i>mod<u>u</u>lj | modo<u>wi</u>lj</i> &ndash; <b>until after</b></li>
+      <li><i>swas<u>u</u>lj | swa<u>wi</u>lj</i> &ndash; <b>for</b></li>
+    </ul>
+
+    <p>[Worked examples]</p>
+    
   </section>
 
   <div class="page-nav-mark" id="glossary" />

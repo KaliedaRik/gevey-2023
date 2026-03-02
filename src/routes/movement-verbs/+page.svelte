@@ -140,7 +140,7 @@
       <li><First phrase="öekluo" /> <b>amble, coast, drift, meander, mosey, pad, perambulate, promenade, ramble, ride, roam, saunter, stray, stroll, <strong>wander</strong></b> &ndash; move without obvious purpose.</li>
     </ul>
 
-    <p>Movement can be purposful or (seemingly) without purpose. When the speaker want to highlight this they will use the dedicated verbs <i>traduo</i> and <i>öekluo</i>:</p>
+    <p>Movement can be purposeful or (seemingly) without purpose. When the speaker want to highlight this they will use the dedicated verbs <i>traduo</i> and <i>öekluo</i>:</p>
 
     <Trans 
       english="Mary walked to work this morning"
@@ -480,25 +480,44 @@
   <section>
     <h2>Turn and spin: movement around an axis</h2>
 
-    <p>Gevey speakers commonly use two verbs to handle rotational movement. <i>seksaduo</i> indicates a specific change in the direction of movement, while <i>êdxuo</i> speaks of a more continuous rotational movement.</p>
+    <p>Gevey speakers commonly use three verbs to handle rotational movement. <i>seksaduo</i> indicates a specific change in the direction of movement, while <i>êdxuo</i> speaks of a more continuous rotational movement.</p>
+
+    <p>The third verb - <i>giptuo</i> - is transitive, thus does not require a preposition.</p>
 
     <ul>
-      <li><First phrase="seksaduo" /> <b>pivot, go left|right|back, <strong>turn</strong></b> &ndash; change direction.</li>
+      <li><First phrase="seksaduo" /> <b>pivot, <strong>turn</strong></b> &ndash; change direction.</li>
 
       <li><First phrase="êdxuo" /> <b>circle, coil, loop, revolve, rotate, <strong>spin</strong>, twirl, twist, whirl, wind</b> &ndash; move around an axis.</li>
+
+      <li><First phrase="giptuo" /> <b>spin something, turn something, twist something.</b></li>
+    </ul>
+
+    <p>There's also a set of verbs (derived from <i>giptuo</i>) for describing how a person or animal turns while moving:</p>
+
+    <ul>
+      <li><First phrase="gimobduo" /> <b>turn right</b>.</li>
+      <li><First phrase="gitoptuo" /> <b>turn left</b>.</li>
+      <li><First phrase="gidebduo" /> <b>turn around, turn back</b>.</li>
     </ul>
 
     <aside>
-      <p>The direction of rotational movement is handled using an <em>absolute</em> <a href="https://en.wikipedia.org/wiki/Linguistic_frame_of_reference">frame of reference</a>, rather than the relative frame commonly used in English &ndash; left, right, clockwise, etc.</p>
+      <p>Gevey does not have specific words for their "left" and "right" hand. When it comes to handedness, a person will be able to identify their <i>hacoewe</i> (main, or grasping, hand) from their <i>tfecoewe</i> (other, or holding, hand) &ndash; but this is dependent entirely on that person's handedness, thus is not useful for giving directions.</p>
 
-      <p>The absolute directions that Gevey speakers will use often depend on where they are situated. While the cardinal directions (<i>leilu, tcotelu, trolu, tuintelu</i>) will be used as a fallback, speakers will more often reference local landmarks, or objects that both speaker and listener can see.</p>
+      <p>This identification extends to other body parts: <i>êzeku tse hacoewk tan</i> (foot on the side of my grasping hand); <i>wjanhe tse tfecoewk tan</i> (eye on the side of my holding hand).</p>
 
-      <p>In particular, Gevey does not have specific words for "left" and "right". When it comes to handedness, a person will be able to identify their <i>hacoewe</i> (main, or grasping, hand) from their <i>tfecoewe</i> (other, or holding, hand) &ndash; but this is dependent entirely on that person's handedness, thus is not useful for giving directions.</p>
-
-      <p>Note that speakers often use <i>wjabzastu</i> (to the right, clockwise) and <i>wjabzastanu</i> (to the left, anti-clockwise) as referents to describe the rotation of non-human things.</p>
+      <p>When it comes to giving directions, speakers often use the nouns <i>wjabzastu</i> (clockwise, right turn) and <i>wjabzastanu</i> (anti-clockwise, left turn). They use different nouns for non-body "sided-ness": <i>gimobu</i> and <i>gitopu</i> - right-side and left-side respectively.</p>
     </aside>
 
     <p>Be aware that when giving directions, Gevey speakers will commonly drop the preposition <i>tasukc</i> (towards).</p>
+
+    <Trans 
+      english="Walk along that road, you pass by the school then turn left"
+      gevey="Dezdukc tisk mrjit trado, casukc tselaef puzo meetc tuintel seksado"
+      gLine="dezdukc       tisk mrjit trado,      casukc tselaef puzo       meetc           wjabzastant seksado"
+      eLine="along/through road that  walk.[you], past   school  move.[you] then  [towards] left        turn.[you]"
+    />
+
+    <p>Using cardinal directions (north, south, east, west) is also common practice, as is using landmarks as external anchors:</p>
 
     <Trans 
       english="Walk along that road, you pass by the school then turn to the west"
@@ -507,26 +526,63 @@
       eLine="along/through road that  walk.[you], past   school  move.[you] then  [towards] west    turn.[you]"
     />
 
-    <p>Unlike most of the verbs covered above, <i>êdxuo</i> is a transitive action. When no patient/theme noun is present speakers will assume the action is reflexive:</p>
+    <Trans 
+      english="Walk along that road, you pass by the school then turn towards the big temple"
+      gevey="Dezdukc tisk mrjit trado, casukc tselaef puzo meetc tasuokc qadeizg dxarju seksado"
+      gLine="dezdukc       tisk mrjit trado,      casukc tselaef puzo       meetc tasuokc qadeisk dxarju seksado"
+      eLine="along/through road that  walk.[you], past   school  move.[you] then  towards temple  big    turn.[you]"
+    />
 
     <Trans 
-      english="She screwed the bottle's lid down tightly"
-      gevey="Yu teljaef kunj yapaitj êdxate glaerjat ke"
-      gLine="yu teljaef kunj yapaitj êdxate  glaerjat ke"
+      english="I turned left towards the big temple"
+      gevey="Tasuokc qadeizg dxarju gitopta"
+      gLine="tasuokc qadeizg dxarju gitopta"
+      eLine="towards temple  big    turned-left.[I]"
+    />
+
+    <p><i>êdxuo</i> and <i>giptuo</i> are an example of where the transitive and intransitive forms of an action are differentiated lexically:</p>
+
+    <Trans 
+      english="Mary coils the string around the stick"
+      gevey="Marje yu daebouwjk tcelkukc pouzul gipte"
+      gLine="Marje yu daebouwjg tcelkukc pouzul gipte"
+      eLine="Mary     string    around   stick  coils"
+    />
+
+    <Trans 
+      english="The string coils around the stick"
+      gevey="Yu daebouwjk tcelkukc pouzul êdx"
+      gLine="yu daebouwjg tcelkukc pouzul êdx"
+      eLine="   string    around   stick  coils"
+    />
+
+    <Trans 
+      english="Peter bought a ball of string"
+      gevey="Petrje yu daebouwjg rju êdxoisq tatjate"
+      gLine="Petrje yu daebouwjg rju     êdxoisq tatjate"
+      eLine="Peter     string    measure ball    bought"
+    />
+
+    <p>Unlike most of the verbs covered above, <i>giptuo</i> is a transitive action. When no patient/theme noun is present speakers will assume the action is reflexive:</p>
+
+    <Trans 
+      english="She screwed the bottle's lid tightly"
+      gevey="Yu teljaef kunj yapaitj giptate glaerjat ke"
+      gLine="yu teljaev kunj yapaitj giptate glaerjat ke"
       eLine="   lid     of   bottle  screwed tightly  she"
     />
 
     <Trans 
-      english="The bottle's lid was tightly screwed down"
-      gevey="Yu teljaev kunj yapaitj êdxad glaerjat"
-      gLine="yu teljaev kunj yapaitj êdxad       glaerjat"
+      english="The bottle's lid was tightly screwed"
+      gevey="Yu teljaef kunj yapaitj giptad glaerjat"
+      gLine="yu teljaev kunj yapaitj giptat      glaerjat"
       eLine="   lid     of   bottle  was.screwed tightly"
     />
   </section>
 
   <div class="page-nav-mark" id="impact" />
   <section>
-    <h2>When movement stops; movement as a result of impact</h2>
+    <h2>When movement stops:<br />movement as a result of impact</h2>
 
     <p>Movement cessation is handled by applying the appropriate <em>completion determiner</em> to the verb:</p>
 

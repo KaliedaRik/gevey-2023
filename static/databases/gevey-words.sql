@@ -428,7 +428,7 @@ VALUES
 	'Gevuil',
 	'gevei',
 	'a city in the Land of Titanei',
-	' root prepositions '
+	' root prepositions movement-verbs '
 ),(
 	'Tobasuo',
 	'Tobasuo',
@@ -604,7 +604,7 @@ VALUES
 	'east area',
 	NULL,
 	NULL,
-	' root movement-verbs '
+	' root '
 ),(
 	'tcoflu',
 	'tcoflu',
@@ -622,7 +622,7 @@ VALUES
 	'park, public garden',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'bezye',
 	'bezye',
@@ -640,7 +640,7 @@ VALUES
 	'neighbourhood',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'bazdiifsu',
 	'bazdiifsu',
@@ -712,7 +712,7 @@ VALUES
 	'south area',
 	NULL,
 	NULL,
-	' root movement-verbs '
+	' root '
 ),(
 	'leilu',
 	'leilu',
@@ -721,7 +721,7 @@ VALUES
 	'north area',
 	NULL,
 	NULL,
-	' root movement-verbs '
+	' root '
 ),(
 	'tuintelu',
 	'tuintelu',
@@ -771,7 +771,7 @@ VALUES
 	'meqjuo',
 	'meqjuo',
 	'meqj',
-	'noun',
+	'verb: transitive',
 	'feeling, emotion',
 	NULL,
 	NULL,
@@ -802,7 +802,7 @@ VALUES
 	'temple, church, holy place',
 	'deise',
 	NULL,
-	' root prepositions '
+	' root prepositions movement-verbs '
 ),(
 	'Tadeisei',
 	'Tadeisei',
@@ -1181,7 +1181,7 @@ VALUES
 	'child, juvenile',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'fiiwuone',
 	'fiiwuone',
@@ -1199,7 +1199,7 @@ VALUES
 	'school, college',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'balmavuo tsu plet',
 	'balmavuo tsu plet',
@@ -1361,7 +1361,7 @@ VALUES
 	'old (age)',
 	NULL,
 	NULL,
-	' noun-phrases prepositions '
+	' noun-phrases prepositions movement-verbs '
 ),(
 	'tcote',
 	'tcote',
@@ -1415,7 +1415,7 @@ VALUES
 	'toe',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'cwotjuo',
 	'cwotjuo',
@@ -1442,7 +1442,7 @@ VALUES
 	'visit, tour',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'drjedzu',
 	'drjedzu',
@@ -1832,6 +1832,15 @@ VALUES
 	NULL,
 	' sounds phonology '
 ),(
+	'atrjaqju',
+	'átrjaqju',
+	'átrjaqj',
+	'noun',
+	'starvation, hunger',
+	NULL,
+	NULL,
+	' prepositions '
+),(
 	'qjeuftu',
 	'qjeuftu',
 	'qjeuft',
@@ -1956,7 +1965,7 @@ VALUES
 	'car, van',
 	NULL,
 	'internally-powered, enclosed',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'syiitsfru',
 	'syiitsfru',
@@ -2025,7 +2034,7 @@ VALUES
 	'wjabzastu',
 	'wjabzast',
 	'noun',
-	'movement, clockwise',
+	'movement, clockwise, screw down, right',
 	NULL,
 	NULL,
 	' movement-verbs '
@@ -2043,7 +2052,7 @@ VALUES
 	'wjabzastanu',
 	'wjabzastant',
 	'noun',
-	'movement, anticlockwise',
+	'movement, anticlockwise, screw up, left',
 	NULL,
 	NULL,
 	' movement-verbs '
@@ -2073,7 +2082,7 @@ VALUES
 	'road, street, avenue',
 	NULL,
 	'urban environments',
-	'  '
+	' movement-verbs '
 ),(
 	'kluiyu',
 	'kluiyu',
@@ -2096,11 +2105,20 @@ VALUES
 	'edxuo',
 	'êdxuo',
 	'êdx',
-	'verb: intransitive-active',
+	'verb: intransitive-stative',
 	'circle, coil, loop, revolve, rotate, spin, twirl, twist, whirl, wind',
 	NULL,
 	'move around an axis',
 	' prepositions movement-verbs '
+),(
+	'edxoisqu',
+	'êdxoisqu',
+	'êdxoisq',
+	'noun',
+	'coil, twist, roll (of something)',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'inu',
 	'ïnu',
@@ -2643,6 +2661,15 @@ VALUES
 	NULL,
 	'  '
 ),(
+	'floamuo',
+	'floamuo',
+	'floam',
+	'verb: transitive-exchange',
+	'send, receive, hear',
+	NULL,
+	NULL,
+	'  '
+),(
 	'wedjuiku',
 	'wedjuiku',
 	'wedjuik',
@@ -2677,7 +2704,7 @@ VALUES
 	'break, chop',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'putruo',
 	'putruo',
@@ -2875,7 +2902,7 @@ VALUES
 	'meeting room, hall',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'rjulvaelu',
 	'rjulvaelu',
@@ -2885,6 +2912,33 @@ VALUES
 	NULL,
 	NULL,
 	'  '
+),(
+	'daebwju',
+	'daebwju',
+	'daebouwjg',
+	'noun',
+	'string, thin rope',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'nasku',
+	'nasku',
+	'nask',
+	'noun',
+	'rope',
+	NULL,
+	NULL,
+	'  '
+),(
+	'pouzlu',
+	'pouzlu',
+	'pouzul',
+	'noun',
+	'stick, branch, peg',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'meqje',
 	'meqje',
@@ -3687,7 +3741,7 @@ VALUES
 	'say, tell, speak, state, pronounce (the act of speaking)',
 	NULL,
 	NULL,
-	' sounds '
+	' sounds prepositions '
 ),(
 	'rjeepuo',
 	'rjeepuo',
@@ -3822,7 +3876,7 @@ VALUES
 	'leg',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'qoeluimu',
 	'qoeluimu',
@@ -3840,7 +3894,7 @@ VALUES
 	'foot, paw',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'coevage',
 	'coevage',
@@ -3849,7 +3903,7 @@ VALUES
 	'wrist',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'noikjuo',
 	'noikjuo',
@@ -4397,7 +4451,7 @@ VALUES
 	'noun phrase',
 	'right, left, main hand',
 	NULL,
-	'Commonly shortened to <em>hacoewe</em>',
+	'Commonly shortened to <em>hacoewe, ye hacoewk</em>',
 	' prepositions movement-verbs '
 ),(
 	'coewje',
@@ -4409,13 +4463,22 @@ VALUES
 	NULL,
 	' pronouns prepositions '
 ),(
+	'wjanhe',
+	'wjanhe',
+	'wjant',
+	'noun',
+	'eye',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
 	'coewje tfebuiy',
 	'coewje tfebuiy',
 	'',
 	'noun phrase',
 	'left, right, other hand',
 	NULL,
-	'Commonly shortened to <em>tfecoewe</em>',
+	'Commonly shortened to <em>tfecoewe, ye tfecoewk</em>',
 	' prepositions movement-verbs '
 ),(
 	'tfebyuo',
@@ -4467,10 +4530,55 @@ VALUES
 	'giptuo',
 	'gipt',
 	'verb: transitive',
-	'turn something, twist something',
+	'spin something, turn something, twist something',
 	NULL,
 	NULL,
-	' phonology '
+	' phonology movement-verbs '
+),(
+	'gitoptuo',
+	'gitoptuo',
+	'gitopt',
+	'verb: intransitive-active',
+	'turn anticlockwise, turn left',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'gitopu',
+	'gitopu',
+	'gitop',
+	'noun',
+	'(my) left side',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'gimobu',
+	'gimobu',
+	'gimob',
+	'noun',
+	'(my) right side',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'gimobduo',
+	'gimobduo',
+	'gimobd',
+	'verb: intransitive-active',
+	'turn clockwise, turn right',
+	NULL,
+	NULL,
+	' movement-verbs '
+),(
+	'gidebduo',
+	'gidebduo',
+	'gidebd',
+	'verb: intransitive-active',
+	'turn around, turn back',
+	NULL,
+	NULL,
+	' movement-verbs '
 ),(
 	'seksaduo',
 	'seksaduo',
@@ -4727,7 +4835,7 @@ VALUES
 	'many of, most of',
 	NULL,
 	NULL,
-	' words morphology noun-phrases prepositions '
+	' words morphology noun-phrases prepositions movement-verbs '
 ),(
 	'leis',
 	NULL,
@@ -4736,7 +4844,7 @@ VALUES
 	'each, every, all of',
 	NULL,
 	NULL,
-	' noun-phrases prepositions '
+	' noun-phrases prepositions movement-verbs '
 ),(
 	'on | ovin',
 	NULL,
@@ -4903,7 +5011,7 @@ VALUES
 	'big, large, huge, enormous, vast',
 	NULL,
 	NULL,
-	' noun-list noun-phrases modifiers '
+	' noun-list noun-phrases modifiers movement-verbs '
 ),(
 	'dxoesu',
 	'dxoesu',
@@ -4975,7 +5083,7 @@ VALUES
 	'tight, taut',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'ilasu',
 	'ílasu',
@@ -5128,7 +5236,7 @@ VALUES
 	'short',
 	NULL,
 	'physical and temporal length',
-	' phonology prepositions '
+	' phonology prepositions movement-verbs '
 ),(
 	'njakaqu tfegu',
 	'njakaqu tfegu',
@@ -5182,7 +5290,7 @@ VALUES
 	'quiet',
 	NULL,
 	NULL,
-	' prosody modifiers '
+	' prosody modifiers movement-verbs '
 ),(
 	'cowju',
 	'cowju',
@@ -5314,6 +5422,24 @@ VALUES
 	NULL,
 	NULL,
 	'  '
+),(
+	'apiiqle',
+	'äpiiqle',
+	'äpiiquil',
+	'noun',
+	'smile, grin',
+	NULL,
+	NULL,
+	'  '
+),(
+	'piiqluo',
+	'piiqluo',
+	'piiquil',
+	'verb: transitive',
+	'smile, smile at',
+	NULL,
+	NULL,
+	' prepositions '
 ),(
 	'xnequ',
 	'xnequ',
@@ -5683,7 +5809,7 @@ VALUES
 	'see, notice, glance at',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'galtuo',
 	'galtuo',
@@ -5764,7 +5890,7 @@ VALUES
 	'dog',
 	NULL,
 	NULL,
-	' derivations modifiers '
+	' derivations modifiers movement-verbs '
 ),(
 	'paaqu',
 	'paaqu',
@@ -5774,6 +5900,15 @@ VALUES
 	NULL,
 	NULL,
 	' derivations '
+),(
+	'dostcismu',
+	'dostcismu',
+	'dostcisem',
+	'noun',
+	'chatter, gossip',
+	NULL,
+	NULL,
+	' prepositions '
 ),(
 	'swendo',
 	NULL,
@@ -5950,7 +6085,7 @@ VALUES
 	'I, me, my, mine',
 	NULL,
 	'first person singular',
-	' grammar pronouns '
+	' grammar pronouns movement-verbs '
 ),(
 	'muiza | muizas | muiziiy | muiziim | muizan',
 	'muiza | muizas | muiziiy | muiziim | muizan',
@@ -6126,7 +6261,7 @@ VALUES
 	'need to',
 	NULL,
 	NULL,
-	' noun-phrases '
+	' noun-phrases movement-verbs '
 ),(
 	'klovastas',
 	'klovastas',
@@ -6387,7 +6522,7 @@ VALUES
 	'(that) over there [distant from both]',
 	NULL,
 	NULL,
-	' noun-phrases pronouns '
+	' noun-phrases pronouns movement-verbs '
 ),(
 	'kizg | kizguo | kizguos | kizgyuo | kizgyuom | kizguon',
 	'kizg | kizguo | kizguos | kizgyuo | kizgyuom | kizguon',
@@ -6715,7 +6850,7 @@ VALUES
 	'when',
 	NULL,
 	'next clause starts in the middle of what was just said',
-	'  '
+	' movement-verbs '
 ),(
 	'loyant',
 	NULL,
@@ -6886,7 +7021,7 @@ VALUES
 	'in order that, so that, then',
 	NULL,
 	'offers possible actions following on from previous clauses',
-	'  '
+	' movement-verbs '
 ),(
 	'man',
 	NULL,
@@ -7134,7 +7269,7 @@ VALUES
 	'work, job',
 	NULL,
 	NULL,
-	' noun-phrases prepositions modifiers '
+	' noun-phrases prepositions modifiers movement-verbs '
 ),(
 	'kjetuilu',
 	'kjetuilu',
@@ -7197,7 +7332,7 @@ VALUES
 	'man',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'gyane',
 	'gyane',
@@ -7269,7 +7404,7 @@ VALUES
 	'house',
 	NULL,
 	NULL,
-	' noun-list '
+	' noun-list movement-verbs '
 ),(
 	'klovlje',
 	'klovlje',
@@ -7278,7 +7413,7 @@ VALUES
 	'horse, pony, donkey',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'rjaobomagu',
 	'rjaobomagu',
@@ -7360,8 +7495,8 @@ VALUES
 	'pyuimuo',
 	'pyuimuo',
 	'pyuim',
-	'verb: transitive',
-	'give',
+	'verb: transitive-exchange',
+	'give, take',
 	NULL,
 	NULL,
 	'  '
@@ -7400,7 +7535,7 @@ VALUES
 	'buy, purchase',
 	NULL,
 	NULL,
-	' grammar noun-list '
+	' grammar noun-list movement-verbs '
 ),(
 	'kjweduo',
 	'kjweduo',
@@ -7558,7 +7693,7 @@ VALUES
 	'general market',
 	NULL,
 	NULL,
-	' grammar noun-list '
+	' grammar noun-list movement-verbs '
 ),(
 	'syaqjomagu',
 	'syaqjomagu',
@@ -7567,7 +7702,7 @@ VALUES
 	'coffee shop',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'syaqju',
 	'syaqju',
@@ -7585,7 +7720,7 @@ VALUES
 	'room',
 	NULL,
 	'any (smallish) enclosed space',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'sohu',
 	'sohu',
@@ -7747,7 +7882,7 @@ VALUES
 	'bottle',
 	NULL,
 	NULL,
-	' noun-list '
+	' noun-list movement-verbs '
 ),(
 	'rjesu',
 	'rjesu',
@@ -7837,7 +7972,7 @@ VALUES
 	'this morning',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'kesnantu',
 	'kesnantu',
@@ -7864,7 +7999,7 @@ VALUES
 	'night',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'saljtaku',
 	'saljtaku',
@@ -7900,7 +8035,7 @@ VALUES
 	'afternoon',
 	NULL,
 	NULL,
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'veedxljaku',
 	'veedxljaku',
@@ -8053,7 +8188,7 @@ VALUES
 	'sing',
 	NULL,
 	NULL,
-	' prepositions modifiers '
+	' prepositions modifiers movement-verbs '
 ),(
 	'umavarjnu tsu ceev',
 	'ûmavarjnu tsu ceev',
@@ -8112,7 +8247,7 @@ VALUES
 	'quick, quickly, fast',
 	NULL,
 	NULL,
-	' words morphology prepositions modifiers '
+	' words morphology prepositions modifiers movement-verbs '
 );
 
 -- DETERMINERS (2)
@@ -8423,7 +8558,7 @@ VALUES
 	'(no translation)',
 	NULL,
 	'a completed action with a successful outcome',
-	'  '
+	' movement-verbs '
 ),(
 	'les',
 	NULL,
@@ -8441,7 +8576,7 @@ VALUES
 	'(no translation)',
 	NULL,
 	'a single, incomplete action',
-	'  '
+	' movement-verbs '
 ),(
 	'li',
 	NULL,
@@ -8477,7 +8612,7 @@ VALUES
 	'stop',
 	NULL,
 	'the halting, or cessation, of an action',
-	'  '
+	' movement-verbs '
 ),(
 	'glou',
 	NULL,
@@ -8567,7 +8702,7 @@ VALUES
 	'and, and at the same time',
 	NULL,
 	NULL,
-	' noun-phrases prepositions modifiers '
+	' noun-phrases prepositions modifiers movement-verbs '
 ),(
 	'sap',
 	NULL,
@@ -8635,7 +8770,7 @@ VALUES
 	'with, accompanied by',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'mavuf | mavawif',
 	'mavuf | mavawif',
@@ -8923,7 +9058,7 @@ VALUES
 	'from, away from',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'tasukc | tawikc',
 	'tasukc | tawikc',
@@ -8932,7 +9067,7 @@ VALUES
 	'to, towards',
 	NULL,
 	NULL,
-	' noun-list '
+	' noun-list movement-verbs '
 ),(
 	'tcelkukc | tcelkawikc',
 	'tcelkukc | tcelkawikc',
@@ -8941,7 +9076,7 @@ VALUES
 	'circling, around',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'dezdukc | dezdewikc',
 	'dezdukc | dezdewikc',
@@ -8950,7 +9085,7 @@ VALUES
 	'between, through',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'basukc | bawikc',
 	'basukc | bawikc',
@@ -8959,7 +9094,7 @@ VALUES
 	'along, by, next to',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'casukc | cawikc',
 	'casukc | cawikc',
@@ -8968,7 +9103,7 @@ VALUES
 	'along, by, past',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'susukc | suwikc',
 	'susukc | suwikc',
@@ -8977,7 +9112,7 @@ VALUES
 	'under, underneath',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'vosukc | vowikc',
 	'vosukc | vowikc',
@@ -8986,7 +9121,7 @@ VALUES
 	'over',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'tcuisukc | tcuisawikc',
 	'tcuisukc | tcuisawikc',
@@ -8995,7 +9130,7 @@ VALUES
 	'in front of',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'xusukc | xuwikc',
 	'xusukc | xuwikc',
@@ -9004,7 +9139,7 @@ VALUES
 	'on, onto',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'antukc | antewikc',
 	'ântukc | ântewikc',
@@ -9013,7 +9148,7 @@ VALUES
 	'off, off from',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'debukc | debawikc',
 	'debukc | debawikc',
@@ -9022,7 +9157,7 @@ VALUES
 	'behind',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'dostukc | dostawikc',
 	'dostukc | dostawikc',
@@ -9031,7 +9166,7 @@ VALUES
 	'from, out of',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'uistukc | uistawikc',
 	'üistukc | üistawikc',
@@ -9040,7 +9175,7 @@ VALUES
 	'in, into',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'tobukc | tobowikc',
 	'tobukc | tobowikc',
@@ -9049,7 +9184,7 @@ VALUES
 	'up, upwards, up to',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'modukc | modowikc',
 	'modukc | modowikc',
@@ -9058,7 +9193,7 @@ VALUES
 	'down, downwards, down to',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'swasukc | swawikc',
 	'swasukc | swawikc',
@@ -9067,7 +9202,7 @@ VALUES
 	'across, for (length)',
 	NULL,
 	NULL,
-	'  '
+	' movement-verbs '
 ),(
 	'dulj | duiwilj',
 	'dulj | duiwilj',
@@ -9684,7 +9819,7 @@ VALUES
 	'The Imp of motion sickness',
 	NULL,
 	'from Tosyaokje''s Almanac of Common Imps: "Gouhoswje is a poorly understood Imp: some believe that it is most at home in the stomach; others are convinced that the eye or the ear is its natural abode. All agree, however, that what Gouhoswje most dislikes is movement, as if swaying through the magnetic flux annoys it to the point of making its host physically ill. The bad news is that this Imp is difficult to dislodge once it has nested within you, though a good apothecary should be able to supply medicines that alleviate the worst of the symptoms that Gouhoswje can inflict on its victims."',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'Moltcoswje',
 	'Moltcoswje',
@@ -9873,7 +10008,7 @@ VALUES
 	'The Imp of listnessess',
 	NULL,
 	'from Tosyaokje''s Almanac of Common Imps: "Tieftazotane is an Imp of the unlit pool, the drip of the water from stalagtite to the cavern floor. It is a slow Imp and, when ensconced in human flesh, it brings a lassitude to its victim. The most outward indication that this Imp has set up home in your bowels is a desire towards inactivity, a willingness to leave until tomorrow what could &ndash; or should &ndash; be tackled today. The best approach to overcoming Tieftazotane is to commit yourself to a plan of action, and to gather the support of colleagues and friends to help you keep to your agreements."',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'Wjuublakotane',
 	'Wjuublakotane',
@@ -10116,7 +10251,7 @@ VALUES
 	'The Prince of Cockerels (male chicken)',
 	NULL,
 	'from Âbeniikse''s Early History of the Balje Peoples: "... while his work may have been repetitive (to thank the Hearth Woman and welcome the sun to the new day) he managed it with unbridled joy and a majestic panache."',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'Tipsisane',
 	'Tipsisane',
@@ -10215,7 +10350,7 @@ VALUES
 	'The Element of Air',
 	NULL,
 	'from Tosyaokje''s Almanac of Common Imps: "Qaasluo is the touch of the breeze, and also the punch of the tornado. Represented by the blue of the midday sky and the form of the feather, this element covers the lungs and breathing. It is also the element of smell. It talks of beginnings. Gratitude is the key emotion of Qaasluo, though there is always the danger that gratitude can devolve into the more erratic impulses of adulation. The children of the Air are quick creatures: quick to laugh and quick to cry. They live for the the moment and feel most at ease when dealing with the world as it happens, with little regard to planning ahead. The earlier they learn to take the needs of others into consideration, the better: those who gain a respect for the future and the past as well as for the now are both calmer people and better friends. But an Air child who loses touch with their sponteneity and intuition is likely to become morose, depressed even."',
-	' prepositions '
+	' prepositions movement-verbs '
 ),(
 	'Dxevuo',
 	'Dxevuo',
